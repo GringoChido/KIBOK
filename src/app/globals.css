@@ -1,26 +1,76 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-kibok-brown: #754604;
+  --color-kibok-brown-light: #9B6B2F;
+  --color-kibok-brown-dark: #5a3503;
+  --color-kibok-cream: #f4ede4;
+  --color-kibok-off-white: #faf8f5;
+  --color-kibok-ink: #1a1a18;
+  --color-kibok-charcoal: #2a2a2a;
+  --color-kibok-warm-gray: #6b6560;
+  --color-kibok-terracotta: #c4704b;
+  --color-kibok-sage: #7e876d;
+  --color-kibok-gold: #d4a853;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-heading: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-kibok-off-white);
+  color: var(--color-kibok-ink);
+  font-family: var(--font-body);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--color-kibok-brown);
+  color: var(--color-kibok-cream);
+}
+
+/* Warm photo treatment — adds the coffee-toned warmth to all photography */
+.photo-warm {
+  filter: saturate(0.85) contrast(1.05) brightness(0.95);
+}
+
+/* Hide scrollbar for horizontal scroll areas */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Stamp/linocut decoration hover pulse */
+.stamp-float {
+  animation: stamp-bob 6s ease-in-out infinite;
+}
+
+@keyframes stamp-bob {
+  0%, 100% { transform: translateY(0) rotate(var(--stamp-rotation, -12deg)); }
+  50% { transform: translateY(-8px) rotate(var(--stamp-rotation, -12deg)); }
+}
+
+/* Stamp/linocut blend mode treatments */
+.stamp-graphic {
+  mix-blend-mode: multiply;
+}
+
+.stamp-graphic-screen {
+  mix-blend-mode: screen;
+}
+
+/* Dotted leader line for menu items */
+.menu-leader {
+  flex: 1;
+  border-bottom: 2px dotted var(--color-kibok-warm-gray);
+  opacity: 0.3;
+  margin: 0 0.75rem;
+  position: relative;
+  top: -4px;
 }

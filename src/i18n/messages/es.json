@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "menu": "Menú",
+    "about": "Nosotros",
+    "visit": "Visítanos",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "headline_1": "Donde",
+    "headline_2": "el Café Encuentra",
+    "headline_3": "la Cultura",
+    "subheadline": "Café de especialidad en el corazón de San Miguel de Allende",
+    "cta_menu": "Ver el Menú",
+    "cta_visit": "Visítanos"
+  },
+  "about_snippet": {
+    "heading": "El Arte del Buen Café",
+    "body": "En el corazón del Centro de San Miguel de Allende, Ki'bok Coffee es más que una cafetería — es un espacio donde los granos orgánicos mexicanos se encuentran con la repostería artesanal y los platillos de ingredientes locales. Un espacio cómodo y elegante que invita a la conversación.",
+    "terroir": "Cada taza cuenta la historia del terroir mexicano — desde las tierras altas de Chiapas hasta las montañas de Oaxaca.",
+    "link": "Nuestra Historia"
+  },
+  "menu_highlights": {
+    "heading": "Destacados del Menú",
+    "link": "Menú Completo"
+  },
+  "cultural": {
+    "heading": "Más Que Café",
+    "subheading": "En la encrucijada del arte, la música y la taza perfecta.",
+    "music_title": "Música en Vivo los Viernes",
+    "music_desc": "Jazz y sets acústicos en el patio — la banda sonora perfecta para tu cortado vespertino.",
+    "art_title": "Arte Local en Nuestras Paredes",
+    "art_desc": "Exposiciones rotativas de la vibrante comunidad de pintores, grabadores y fotógrafos de San Miguel.",
+    "community_title": "Eventos Comunitarios",
+    "community_desc": "Talleres, catas, encuentros culturales — Ki'bok es donde se reúne la comunidad internacional de SMA.",
+    "festival_title": "Temporada de Festivales",
+    "festival_desc": "Del Día de Muertos al Festival de Jazz, estamos en el corazón de las celebraciones más vibrantes de SMA."
+  },
+  "sma_divider": {
+    "text": "En el Corazón de San Miguel"
+  },
+  "location": {
+    "heading_1": "Encuéntranos en",
+    "heading_2": "el Centro",
+    "hours": "Abierto todos los días · Cierra a las 7 PM",
+    "directions": "Cómo Llegar",
+    "rating_text": "estrellas en Google",
+    "proximity": "A 5 min caminando del Jardín Principal"
+  },
+  "instagram": {
+    "heading": "Síguenos"
+  },
+  "menu_page": {
+    "heading_1": "El",
+    "heading_2": "Menú",
+    "subheading": "Elaborado diariamente con granos orgánicos mexicanos, repostería artesanal y platillos locales.",
+    "categories": {
+      "espresso": "Bebidas de Espresso",
+      "filter": "Filtrado y Pour-Over",
+      "cold": "Bebidas Frías",
+      "food": "Repostería y Platillos"
+    }
+  },
+  "about_page": {
+    "heading_1": "Nuestra",
+    "heading_2": "Historia",
+    "intro": "Ki'bok Coffee nació de un profundo amor por el café mexicano y la creencia de que cada taza debe contar una historia. Obtenemos nuestros granos directamente de productores orgánicos en todo México, los tostamos con cuidado y los servimos en espacios diseñados para reunir a las personas.",
+    "beans_heading": "Los Granos",
+    "beans_body_1": "Cada grano que servimos proviene directamente de productores orgánicos en Chiapas, Oaxaca y Veracruz. Creemos en relaciones transparentes con nuestros agricultores — precios justos, prácticas sostenibles y calidad excepcional de la semilla a la taza.",
+    "beans_body_2": "Nuestro proceso de tueste honra el carácter único de cada origen, resaltando la dulzura natural, la complejidad y la profundidad que hacen extraordinario al café mexicano.",
+    "space_heading": "El Espacio",
+    "space_body_1": "Nuestra ubicación en San Miguel de Allende está en Diez de Sollano y Dávalos, una de las calles más hermosas del Centro. El espacio es un refugio íntimo — oscuro, cálido y acogedor, con elementos artísticos en las paredes y barra que te invitan a quedarte.",
+    "space_body_2": "Es un lugar donde los extranjeros conocen a los locales, donde los artistas encuentran inspiración y donde cada conversación se acompaña de algo delicioso.",
+    "craft_heading": "El Oficio",
+    "craft_body": "Detrás de cada gran taza hay un equipo apasionado. Nuestros baristas están entrenados para honrar el oficio — desde la extracción precisa hasta el latte art, cada detalle importa.",
+    "pull_quote": "El café es más que una bebida — es una experiencia que conecta agricultores, tostadores, baristas y a ti."
+  },
+  "visit_page": {
+    "heading_1": "Visí-",
+    "heading_2": "tanos",
+    "subheading": "Estamos en el corazón del Centro, en una de las calles más hermosas de San Miguel.",
+    "find_us": "Encuéntranos",
+    "the_space": "El Espacio",
+    "neighborhood": "Mientras Estés en el Centro",
+    "tips": {
+      "jardin": { "title": "Jardín Principal", "desc": "La plaza principal, a solo 2 minutos caminando. Toma un café y siéntate en el jardín." },
+      "parroquia": { "title": "La Parroquia", "desc": "La icónica iglesia rosa — imposible de perder, justo a la vuelta." },
+      "aurora": { "title": "Fábrica La Aurora", "desc": "Galerías de arte y talleres en una fábrica textil convertida. 10 min caminando." },
+      "mercado": { "title": "Mercado de Artesanías", "desc": "Artesanías locales, textiles y souvenirs. Perfecto para una mañana de exploración." }
+    }
+  },
+  "contact_page": {
+    "heading": "Escríbenos",
+    "subheading": "Preguntas, consultas de catering o simplemente quieres saludar. Envíanos un mensaje.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "success_heading": "¡Mensaje enviado!",
+    "success_body": "Te responderemos pronto."
+  },
+  "blog_page": {
+    "heading": "Blog",
+    "subheading": "Historias de la tostaduría, guías para preparar café en casa y despachos desde San Miguel de Allende.",
+    "back": "Volver al Blog"
+  },
+  "footer": {
+    "tagline": "San Miguel de Allende",
+    "navigate": "Navegar",
+    "visit_us": "Visítanos",
+    "newsletter_prompt": "Mantente al tanto",
+    "newsletter_placeholder": "Tu correo",
+    "subscribe": "Suscribirse",
+    "copyright": "Ki'bok Coffee SMA. Todos los derechos reservados.",
+    "built_by": "Hecho por"
+  },
+  "marquee": {
+    "items": ["KI'BOK COFFEE SMA", "CAFÉ ORGÁNICO MEXICANO", "REPOSTERÍA ARTESANAL", "SAN MIGUEL DE ALLENDE", "INGREDIENTES LOCALES", "HECHO CON CARIÑO"]
+  },
+  "menu_items": {
+    "espresso": { "name": "Espresso", "desc": "Origen único, intenso y equilibrado" },
+    "cortado": { "name": "Cortado", "desc": "Partes iguales de espresso y leche vaporizada" },
+    "cappuccino": { "name": "Cappuccino", "desc": "Clásico, con microespuma sedosa" },
+    "flat_white": { "name": "Flat White", "desc": "Doble shot, leche aterciopelada" },
+    "americano": { "name": "Americano", "desc": "Espresso alargado con agua caliente" },
+    "latte": { "name": "Latte", "desc": "Espresso suave con leche vaporizada" },
+    "pourover": { "name": "Pour-Over V60", "desc": "Origen único, preparado al momento" },
+    "chemex": { "name": "Chemex", "desc": "Limpio, brillante, para dos" },
+    "aeropress": { "name": "AeroPress", "desc": "Cuerpo completo, extracción suave" },
+    "cold_brew": { "name": "Cold Brew", "desc": "Macerado 16 horas, servido con hielo" },
+    "iced_latte": { "name": "Latte Helado", "desc": "Espresso sobre hielo con leche fría" },
+    "iced_matcha": { "name": "Matcha Helado", "desc": "Grado ceremonial, leche de avena" },
+    "horchata": { "name": "Horchata Latte", "desc": "Horchata casera + espresso" },
+    "agua_fresca": { "name": "Agua Fresca", "desc": "Fruta de temporada, selección del día" },
+    "croissant": { "name": "Croissant", "desc": "Croissant de mantequilla, horneado diariamente" },
+    "banana_bread": { "name": "Pan de Plátano", "desc": "Receta de la casa con nueces" },
+    "avocado_toast": { "name": "Tostada de Aguacate", "desc": "Pan de masa madre, tomates cherry, microgreens" },
+    "chilaquiles": { "name": "Chilaquiles", "desc": "Salsa verde o roja, crema, queso fresco" },
+    "granola": { "name": "Bowl de Granola", "desc": "Granola de la casa, yogurt, fruta de temporada" }
+  }
+}

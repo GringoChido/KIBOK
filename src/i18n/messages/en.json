@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "about": "About",
+    "visit": "Visit",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline_1": "Where",
+    "headline_2": "Coffee Meets",
+    "headline_3": "Culture",
+    "subheadline": "Specialty coffee in the heart of San Miguel de Allende",
+    "cta_menu": "See the Menu",
+    "cta_visit": "Visit Us"
+  },
+  "about_snippet": {
+    "heading": "Crafting the Perfect Brew",
+    "body": "Nestled in the heart of San Miguel de Allende's Centro, Ki'bok Coffee is more than a café — it's a space where organic Mexican-sourced beans meet homemade pastries and locally sourced meals. A comfortably elegant space that encourages conversation.",
+    "terroir": "Every cup tells a story of Mexican terroir — from the highlands of Chiapas to the mountains of Oaxaca.",
+    "link": "Our Story"
+  },
+  "menu_highlights": {
+    "heading": "Menu Highlights",
+    "link": "Full Menu"
+  },
+  "cultural": {
+    "heading": "More Than Coffee",
+    "subheading": "At the crossroads of art, music, and the perfect cup.",
+    "music_title": "Live Music Fridays",
+    "music_desc": "Jazz and acoustic sets in the courtyard — the perfect soundtrack to your evening cortado.",
+    "art_title": "Local Art on Our Walls",
+    "art_desc": "Rotating exhibitions by San Miguel's thriving community of painters, printmakers, and photographers.",
+    "community_title": "Community Events",
+    "community_desc": "Workshops, cuppings, cultural meetups — Ki'bok is where SMA's international community gathers.",
+    "festival_title": "Festival Season",
+    "festival_desc": "From Day of the Dead to the Jazz Festival, we're at the heart of SMA's most vibrant celebrations."
+  },
+  "sma_divider": {
+    "text": "In the Heart of San Miguel"
+  },
+  "location": {
+    "heading_1": "Find Us in",
+    "heading_2": "Centro",
+    "hours": "Open daily · Closes 7 PM",
+    "directions": "Get Directions",
+    "rating_text": "stars on Google",
+    "proximity": "5 min walk from the Jardín Principal"
+  },
+  "instagram": {
+    "heading": "Follow Along"
+  },
+  "menu_page": {
+    "heading_1": "The",
+    "heading_2": "Menu",
+    "subheading": "Crafted daily with organic Mexican beans, homemade pastries, and locally sourced meals.",
+    "categories": {
+      "espresso": "Espresso Drinks",
+      "filter": "Filter & Pour-Over",
+      "cold": "Cold Drinks",
+      "food": "Pastries & Food"
+    }
+  },
+  "about_page": {
+    "heading_1": "Our",
+    "heading_2": "Story",
+    "intro": "Ki'bok Coffee was born from a deep love for Mexican coffee and the belief that every cup should tell a story. We source our beans directly from organic producers across Mexico, roast them with care, and serve them in spaces designed to bring people together.",
+    "beans_heading": "The Beans",
+    "beans_body_1": "Every bean we serve is sourced directly from organic producers in Chiapas, Oaxaca, and Veracruz. We believe in transparent relationships with our farmers — fair prices, sustainable practices, and exceptional quality from seed to cup.",
+    "beans_body_2": "Our roasting process honors each origin's unique character, bringing out the natural sweetness, complexity, and depth that make Mexican coffee extraordinary.",
+    "space_heading": "The Space",
+    "space_body_1": "Our San Miguel de Allende location sits on Diez de Sollano y Dávalos, one of Centro's most beautiful streets. The space is an intimate retreat — dark, moody, and warm, with artistic wall elements and bar seating that invites you to stay a while.",
+    "space_body_2": "It's a place where expats meet locals, where artists find inspiration, and where every conversation is accompanied by something delicious.",
+    "craft_heading": "The Craft",
+    "craft_body": "Behind every great cup is a passionate team. Our baristas are trained to honor the craft — from precise extraction to latte art, every detail matters.",
+    "pull_quote": "Coffee is more than a beverage — it's an experience that connects farmers, roasters, baristas, and you."
+  },
+  "visit_page": {
+    "heading_1": "Visit",
+    "heading_2": "Us",
+    "subheading": "We're in the heart of Centro, on one of San Miguel's most beautiful streets.",
+    "find_us": "Find Us",
+    "the_space": "The Space",
+    "neighborhood": "While You're in Centro",
+    "tips": {
+      "jardin": { "title": "Jardín Principal", "desc": "The main square, just a 2-minute walk. Grab a coffee and sit in the jardín." },
+      "parroquia": { "title": "La Parroquia", "desc": "The iconic pink parish church — unmissable and right around the corner." },
+      "aurora": { "title": "Fábrica La Aurora", "desc": "Art galleries and workshops in a converted textile factory. 10 min walk." },
+      "mercado": { "title": "Mercado de Artesanías", "desc": "Local crafts, textiles, and souvenirs. Perfect for a morning browse." }
+    }
+  },
+  "contact_page": {
+    "heading": "Say Hello",
+    "subheading": "Questions, catering inquiries, or just want to say hello? Drop us a line.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "success_heading": "Message sent!",
+    "success_body": "We'll get back to you soon."
+  },
+  "blog_page": {
+    "heading": "Blog",
+    "subheading": "Stories from the roastery, guides for home brewing, and dispatches from San Miguel de Allende.",
+    "back": "Back to Blog"
+  },
+  "footer": {
+    "tagline": "San Miguel de Allende",
+    "navigate": "Navigate",
+    "visit_us": "Visit Us",
+    "newsletter_prompt": "Stay in the loop",
+    "newsletter_placeholder": "Your email",
+    "subscribe": "Subscribe",
+    "copyright": "Ki'bok Coffee SMA. All rights reserved.",
+    "built_by": "Built by"
+  },
+  "marquee": {
+    "items": ["KI'BOK COFFEE SMA", "ORGANIC MEXICAN COFFEE", "HOMEMADE PASTRIES", "SAN MIGUEL DE ALLENDE", "LOCALLY SOURCED", "CRAFTED WITH CARE"]
+  },
+  "menu_items": {
+    "espresso": { "name": "Espresso", "desc": "Single origin, bold & balanced" },
+    "cortado": { "name": "Cortado", "desc": "Equal parts espresso & steamed milk" },
+    "cappuccino": { "name": "Cappuccino", "desc": "Classic, with silky microfoam" },
+    "flat_white": { "name": "Flat White", "desc": "Double shot, velvety milk" },
+    "americano": { "name": "Americano", "desc": "Espresso lengthened with hot water" },
+    "latte": { "name": "Latte", "desc": "Smooth espresso with steamed milk" },
+    "pourover": { "name": "Pour-Over V60", "desc": "Single origin, brewed to order" },
+    "chemex": { "name": "Chemex", "desc": "Clean, bright, serves two" },
+    "aeropress": { "name": "AeroPress", "desc": "Full-bodied, smooth extraction" },
+    "cold_brew": { "name": "Cold Brew", "desc": "16-hour steeped, served over ice" },
+    "iced_latte": { "name": "Iced Latte", "desc": "Espresso over ice with cold milk" },
+    "iced_matcha": { "name": "Iced Matcha", "desc": "Ceremonial grade, oat milk" },
+    "horchata": { "name": "Horchata Latte", "desc": "House-made horchata + espresso" },
+    "agua_fresca": { "name": "Agua Fresca", "desc": "Seasonal fruit, daily selection" },
+    "croissant": { "name": "Croissant", "desc": "Butter croissant, baked fresh daily" },
+    "banana_bread": { "name": "Banana Bread", "desc": "House recipe with walnuts" },
+    "avocado_toast": { "name": "Avocado Toast", "desc": "Sourdough, cherry tomatoes, microgreens" },
+    "chilaquiles": { "name": "Chilaquiles", "desc": "Green or red salsa, crema, queso fresco" },
+    "granola": { "name": "Granola Bowl", "desc": "House granola, yogurt, seasonal fruit" }
+  }
+}
