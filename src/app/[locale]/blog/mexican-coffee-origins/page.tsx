@@ -46,7 +46,7 @@ export default function MexicanCoffeeOrigins() {
         </div>
 
         <div className="prose-kibok mt-12 space-y-6">
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Mexico is the world&apos;s eighth-largest coffee producer, growing
             over 900,000 metric tons annually across more than a dozen states.
             Yet for decades, Mexican coffee was treated as a commodity, blended
@@ -57,7 +57,7 @@ export default function MexicanCoffeeOrigins() {
             from Tokyo to Copenhagen.
           </p>
 
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             At Ki&apos;bok Coffee in San Miguel de Allende, we source directly
             from small farms across Mexico&apos;s three most celebrated coffee
             regions. Every cup we serve on Diez de Sollano y Dávalos in Centro
@@ -68,7 +68,7 @@ export default function MexicanCoffeeOrigins() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             Where Does Mexican Coffee Come From?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Mexican coffee comes primarily from the southern and central mountain
             states of Chiapas, Oaxaca, and Veracruz, which together account for
             roughly 85% of the country&apos;s production. Coffee thrives at
@@ -76,7 +76,7 @@ export default function MexicanCoffeeOrigins() {
             nights slow the maturation of the cherry, allowing sugars and complex
             acids to develop inside the bean.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Beyond the big three, emerging regions like Puebla, Guerrero, Nayarit,
             and Colima are producing micro-lots that surprise cuppers with
             unexpected flavor profiles, from tropical fruit notes in Guerrero to
@@ -86,7 +86,7 @@ export default function MexicanCoffeeOrigins() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Makes Chiapas Coffee Special?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Chiapas coffee is grown in the Sierra Madre mountains at elevations
             of 1,200 to 1,800 meters, primarily in the Soconusco region and the
             highlands near San Cristóbal de las Casas. The volcanic soil, heavy
@@ -94,7 +94,7 @@ export default function MexicanCoffeeOrigins() {
             conditions for Arabica varieties like Typica, Bourbon, and the
             increasingly popular Gesha.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             In the cup, Chiapas beans tend toward a clean, bright profile with
             milk chocolate body, citrus acidity (often lemon or tangerine), and
             a caramel sweetness in the finish. Chiapas produces more organic
@@ -108,14 +108,14 @@ export default function MexicanCoffeeOrigins() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             Why Is Oaxaca Coffee Gaining International Recognition?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Oaxaca coffee is rapidly gaining recognition for its complexity and
             distinctive character. Grown in the Pluma Hidalgo region along the
             Sierra Madre del Sur, Oaxacan beans develop at elevations above
             1,500 meters where cloud forests maintain constant humidity and
             moderate temperatures year-round.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             The Pluma variety, a Typica descendant that has adapted to
             Oaxaca&apos;s microclimate over more than a century, produces a cup
             with stone fruit sweetness, floral aromatics, and a silky body that
@@ -130,14 +130,14 @@ export default function MexicanCoffeeOrigins() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Is Veracruz Known For in the Coffee World?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Veracruz coffee benefits from the state&apos;s unique geography: the
             eastern slope of the Sierra Madre Oriental catches moisture from the
             Gulf of Mexico, creating a lush growing corridor from Coatepec to
             Xico to Huatusco. Veracruz was Mexico&apos;s first major coffee
             region, with commercial production dating to the 1790s.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             The cup profile of Veracruz beans is often described as the most
             approachable of the three major Mexican coffee regions: a nutty,
             chocolatey sweetness with moderate acidity and a round, full body.
@@ -200,7 +200,7 @@ export default function MexicanCoffeeOrigins() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Role Does Altitude Play in Mexican Coffee Quality?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Altitude is the single most influential factor in Mexican specialty
             coffee quality. At higher elevations, cooler temperatures slow the
             cherry&apos;s ripening cycle from roughly seven months to nine or
@@ -210,7 +210,7 @@ export default function MexicanCoffeeOrigins() {
             (high-grown, typically above 1,200 meters) consistently score higher
             on cupping evaluations than their lowland counterparts.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             This is why we prioritize high-altitude, shade-grown lots when
             selecting beans for Ki&apos;bok. When you visit us in San Miguel de
             Allende and taste a single origin Chiapas or Oaxaca on our{" "}
@@ -227,7 +227,7 @@ export default function MexicanCoffeeOrigins() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             How Is the Mexican Specialty Coffee Scene Evolving?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             The Mexican specialty coffee scene is evolving rapidly. A new
             generation of producers is investing in experimental processing
             methods, including natural, honey, and anaerobic fermentation, that
@@ -237,7 +237,7 @@ export default function MexicanCoffeeOrigins() {
             host thriving cafe cultures that demand traceable, high-quality
             beans.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Organizations like the Asociación Mexicana de Cafés y Cafeterías de
             Especialidad (AMCCE) are building infrastructure for cuppings,
             competitions, and farmer education. Mexico&apos;s participation in
@@ -263,7 +263,7 @@ export default function MexicanCoffeeOrigins() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 Where does Mexican coffee come from?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 The majority of Mexican coffee comes from the southern states of
                 Chiapas, Oaxaca, and Veracruz, with smaller but increasingly
                 notable production in Puebla, Guerrero, and Nayarit. These
@@ -275,7 +275,7 @@ export default function MexicanCoffeeOrigins() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 Is Mexican coffee Arabica or Robusta?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 Mexico grows almost exclusively Arabica coffee. The dominant
                 varieties are Typica, Bourbon, Caturra, and the indigenous Pluma
                 variety. A small amount of Robusta is grown in lowland Chiapas,
@@ -286,7 +286,7 @@ export default function MexicanCoffeeOrigins() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 What does Mexican specialty coffee taste like?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 Mexican specialty coffee is known for its balance and sweetness.
                 Common flavor notes include milk chocolate, caramel, citrus
                 fruits, stone fruits, and nuts. High-altitude lots from Chiapas
@@ -298,7 +298,7 @@ export default function MexicanCoffeeOrigins() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 Why is organic coffee so common in Mexico?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 Mexico is the world&apos;s largest producer of organic coffee.
                 Many indigenous farming communities in Chiapas and Oaxaca have
                 practiced shade-grown, chemical-free cultivation for generations.

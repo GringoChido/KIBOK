@@ -47,7 +47,7 @@ export default function PerfectPourOver() {
         </div>
 
         <div className="prose-kibok mt-12 space-y-6">
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Pour-over coffee is the simplest way to unlock the full flavor of a
             great bean. Unlike immersion methods that steep all the grounds at
             once, a pour-over lets you control the flow of water through the
@@ -57,7 +57,7 @@ export default function PerfectPourOver() {
             for anyone who wants to taste the difference that specialty coffee
             brewing makes at home.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             This guide walks you through a complete step by step pour over coffee
             recipe that works with a Hario V60, Kalita Wave, or any cone-shaped
             dripper. We will cover ratios, grind size, water temperature, pouring
@@ -67,7 +67,7 @@ export default function PerfectPourOver() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Do You Need to Make Pour-Over Coffee?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             To make pour-over coffee at home, you need five things: a pour-over
             dripper, paper filters, a gooseneck kettle, a kitchen scale, and
             freshly roasted whole-bean coffee. A burr grinder is strongly
@@ -108,7 +108,7 @@ export default function PerfectPourOver() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Is the Best Pour-Over Coffee Ratio?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             The best pour-over coffee ratio for most specialty beans is 1:16,
             meaning 1 gram of coffee to 16 grams of water. For a single cup,
             that translates to 15g of coffee and 240g of water. This ratio
@@ -165,7 +165,7 @@ export default function PerfectPourOver() {
               </tbody>
             </table>
           </div>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             If you prefer a stronger cup, try a 1:14 ratio. For lighter, more
             tea-like brews, go to 1:17. Small adjustments of one gram of coffee
             can shift the flavor noticeably, so keep notes on what you like.
@@ -174,7 +174,7 @@ export default function PerfectPourOver() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             How Do You Make Pour-Over Coffee Step by Step?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Follow this step by step pour over coffee method for a consistent,
             delicious brew every time. The total brew time should land between
             2:30 and 3:30, depending on your grind size and pouring speed. This
@@ -184,7 +184,7 @@ export default function PerfectPourOver() {
           <h3 className="mt-8 mb-3 font-heading text-xl font-bold text-kibok-ink">
             Step 1: Heat Your Water
           </h3>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Bring water to 93&ndash;96&deg;C (200&ndash;205&deg;F). If you
             don&apos;t have a thermometer, bring water to a full boil and let it
             rest for 30 seconds. Water that is too hot will scorch the coffee and
@@ -195,7 +195,7 @@ export default function PerfectPourOver() {
           <h3 className="mt-8 mb-3 font-heading text-xl font-bold text-kibok-ink">
             Step 2: Grind Your Coffee
           </h3>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Grind 15g of coffee to a medium-fine consistency, roughly the texture
             of table salt. For the V60, err slightly finer; for the Kalita Wave,
             go slightly coarser. If your brew drains too fast (under 2:30), grind
@@ -205,7 +205,7 @@ export default function PerfectPourOver() {
           <h3 className="mt-8 mb-3 font-heading text-xl font-bold text-kibok-ink">
             Step 3: Rinse the Filter
           </h3>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Place the filter in your dripper, set it on your mug or carafe, and
             pour hot water through the filter until it is fully saturated.
             Discard the rinse water. This removes paper taste and preheats your
@@ -216,7 +216,7 @@ export default function PerfectPourOver() {
           <h3 className="mt-8 mb-3 font-heading text-xl font-bold text-kibok-ink">
             Step 4: Bloom (0:00 &ndash; 0:45)
           </h3>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Add the ground coffee to the filter and gently shake to level the
             bed. Start your timer and pour 30&ndash;45g of water in a slow
             spiral, starting from the center and working outward. You will see
@@ -229,7 +229,7 @@ export default function PerfectPourOver() {
           <h3 className="mt-8 mb-3 font-heading text-xl font-bold text-kibok-ink">
             Step 5: Main Pour (0:45 &ndash; 2:00)
           </h3>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             At 0:45, begin your main pour. Pour in slow, concentric circles from
             the center outward, keeping the stream thin and steady. Avoid
             pouring directly onto the filter walls, which lets water bypass the
@@ -242,7 +242,7 @@ export default function PerfectPourOver() {
           <h3 className="mt-8 mb-3 font-heading text-xl font-bold text-kibok-ink">
             Step 6: Drawdown (2:00 &ndash; 3:00)
           </h3>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             After your final pour, let the water drain through the coffee bed.
             The bed should draw down evenly. If you see a flat, uniform layer of
             spent grounds at the end, your technique and grind are dialed in. A
@@ -254,7 +254,7 @@ export default function PerfectPourOver() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Are Common Pour-Over Mistakes Beginners Make?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             The most common pour-over mistakes beginners make are using stale
             coffee, inconsistent grind size, and pouring too fast. Here is a
             quick troubleshooting guide for the most frequent issues.
@@ -307,7 +307,7 @@ export default function PerfectPourOver() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Is the Best Pour-Over Technique for Beginners?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             The best pour-over technique for beginners is to keep it simple:
             use a Kalita Wave for its flat-bottom forgiveness, start with a 1:16
             ratio, and focus on a slow, steady pour from the center outward.
@@ -315,7 +315,7 @@ export default function PerfectPourOver() {
             variable at a time (grind size, then water temperature, then pour
             speed) and taste the difference each adjustment makes.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             If you want to see these techniques in person, visit us at
             Ki&apos;bok on Diez de Sollano y Dávalos in San Miguel de Allende.
             Our baristas are happy to walk you through a brew and help you find
@@ -346,7 +346,7 @@ export default function PerfectPourOver() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 How long should a pour-over take?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 A single-cup pour-over (15g coffee, 240g water) should take
                 between 2 minutes 30 seconds and 3 minutes 30 seconds from the
                 first pour to the last drip. If it finishes faster, your grind is
@@ -357,7 +357,7 @@ export default function PerfectPourOver() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 Can I use pre-ground coffee for pour-over?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 You can, but the results will be noticeably less aromatic and
                 complex. Coffee begins losing volatile compounds within 15
                 minutes of grinding. For the best home coffee brewing experience,
@@ -368,7 +368,7 @@ export default function PerfectPourOver() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 What is the difference between V60 and Kalita Wave?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 The Hario V60 has a single large drain hole and spiral ridges
                 that give the brewer more control over flow rate, but are less
                 forgiving of technique errors. The Kalita Wave has a flat bottom
@@ -381,7 +381,7 @@ export default function PerfectPourOver() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 Does water quality matter for pour-over coffee?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 Yes. Coffee is about 98.5% water, so the mineral content of your
                 water directly affects extraction and taste. Avoid distilled water
                 (too flat) and very hard water (too mineral-forward). Filtered tap

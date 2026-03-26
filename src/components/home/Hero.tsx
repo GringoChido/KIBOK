@@ -85,17 +85,17 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.4 }}
-          className="mt-8 flex gap-4"
+          className="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4"
         >
           <Link
             href="/menu"
-            className="inline-block rounded-sm bg-kibok-brown px-8 py-3.5 font-heading text-sm font-bold uppercase tracking-wider text-kibok-cream transition-all hover:bg-kibok-brown-light hover:shadow-lg active:scale-95"
+            className="block rounded-sm bg-kibok-brown px-8 py-3.5 text-center font-heading text-sm font-bold uppercase tracking-wider text-kibok-cream transition-all hover:bg-kibok-brown-light hover:shadow-lg active:scale-95 sm:inline-block"
           >
             {t("cta_menu")}
           </Link>
           <Link
             href="/visit"
-            className="inline-block rounded-sm border-2 border-kibok-cream px-8 py-3.5 font-heading text-sm font-bold uppercase tracking-wider text-kibok-cream transition-all hover:bg-kibok-cream hover:text-kibok-ink active:scale-95"
+            className="block rounded-sm border-2 border-kibok-cream px-8 py-3.5 text-center font-heading text-sm font-bold uppercase tracking-wider text-kibok-cream transition-all hover:bg-kibok-cream hover:text-kibok-ink active:scale-95 sm:inline-block"
           >
             {t("cta_visit")}
           </Link>

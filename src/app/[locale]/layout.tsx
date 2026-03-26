@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { GrainOverlay } from "@/components/shared/GrainOverlay";
+import { MobileCTA } from "@/components/layout/MobileCTA";
 import "../globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -59,8 +60,9 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <GrainOverlay />
           <Navbar />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 pb-16 md:pb-0">{children}</main>
           <Footer />
+          <MobileCTA />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -19,8 +19,8 @@ export const AboutSnippet = () => {
           {/* Collage: main photo + overlapping small photo + stamp */}
           <ScrollReveal direction="left">
             <div className="relative">
-              {/* Main photo bleeds to edge */}
-              <div className="relative aspect-[4/5] overflow-hidden rounded-sm -ml-6 lg:-ml-8">
+              {/* Main photo — bleeds to edge on desktop only */}
+              <div className="relative aspect-[4/5] overflow-hidden rounded-sm md:-ml-6 lg:-ml-8">
                 <Image
                   src={IMAGES.latteArtLeaf}
                   alt="Latte art in ribbed glass"
@@ -42,8 +42,8 @@ export const AboutSnippet = () => {
                   />
                 </div>
               </div>
-              {/* Stamp at intersection */}
-              <div className="absolute -bottom-4 right-8 z-20">
+              {/* Stamp at intersection — hidden on small mobile */}
+              <div className="absolute -bottom-4 right-8 z-20 hidden sm:block">
                 <StampGraphic src={IMAGES.stampTeapot} size={100} rotation={-8} opacity={0.6} />
               </div>
             </div>
@@ -54,10 +54,10 @@ export const AboutSnippet = () => {
             <div className="md:rounded-sm md:bg-kibok-cream/90 md:p-8 md:backdrop-blur-sm">
               <SectionHeading>{t("heading")}</SectionHeading>
               <ScrollReveal delay={0.2}>
-                <p className="mt-6 font-body text-lg leading-relaxed text-kibok-warm-gray">
+                <p className="mt-6 font-body text-base leading-relaxed text-kibok-warm-gray md:text-lg">
                   {t("body")}
                 </p>
-                <p className="mt-4 font-body text-base leading-relaxed text-kibok-warm-gray/80">
+                <p className="mt-4 font-body text-sm leading-relaxed text-kibok-warm-gray/80 md:text-base">
                   {t("terroir")}
                 </p>
                 <Link

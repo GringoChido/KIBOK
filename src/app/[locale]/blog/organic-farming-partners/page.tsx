@@ -46,7 +46,7 @@ export default function OrganicFarmingPartners() {
         </div>
 
         <div className="prose-kibok mt-12 space-y-6">
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Every bag of coffee we serve at Ki&apos;bok in San Miguel de Allende
             starts with a farmer. Not a commodity exchange, not a broker, not a
             container ship of anonymous green beans. A person, often a family,
@@ -55,7 +55,7 @@ export default function OrganicFarmingPartners() {
             and it shapes everything from the price we pay to the flavors in
             your cup.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             This post introduces the farming communities we work with, explains
             how organic coffee is grown in Mexico, and describes why sustainable
             coffee sourcing matters for both the people who grow it and the
@@ -65,14 +65,14 @@ export default function OrganicFarmingPartners() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             Who Are the Organic Coffee Farmers Behind Ki&apos;bok&apos;s Beans?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Ki&apos;bok sources from small-scale organic coffee farmers in
             Mexico, primarily in the highland communities of Chiapas and Oaxaca.
             Most of our partner farms are between 1 and 5 hectares, family-owned,
             and organized into cooperatives that share processing infrastructure,
             quality control expertise, and export logistics.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             In Chiapas, we work with producers in the Soconusco and Sierra Madre
             regions who grow Typica and Bourbon varieties under native shade
             canopies at elevations above 1,400 meters. These communities, many
@@ -83,7 +83,7 @@ export default function OrganicFarmingPartners() {
             signal it is time to prune, how long to ferment the cherry in the
             local water supply.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             In Oaxaca, our beans come from Zapotec-community farms in the Pluma
             Hidalgo corridor of the Sierra Madre del Sur. These producers
             specialize in the Pluma variety, a Typica descendant uniquely adapted
@@ -96,7 +96,7 @@ export default function OrganicFarmingPartners() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             How Is Mexican Organic Coffee Grown?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Mexican organic coffee is grown using shade-grown, chemical-free
             methods that rely on natural forest ecosystems rather than synthetic
             inputs. Coffee plants grow beneath a canopy of native trees (inga,
@@ -105,7 +105,7 @@ export default function OrganicFarmingPartners() {
             provides natural fertilization, and the diverse plant life harbors
             beneficial insects that control pests.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             The growing cycle follows a natural rhythm. Plants are pruned after
             harvest (typically February through April). New growth appears during
             the spring rains. Flowers bloom in May, and cherries develop over
@@ -114,7 +114,7 @@ export default function OrganicFarmingPartners() {
             as cooler temperatures slow maturation, and those later-harvest beans
             tend to develop more complex acidity and sweetness.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             After picking, cherries are processed at the farm or at a
             cooperative&apos;s wet mill. Most of our partner farms use the washed
             method: the fruit is removed mechanically, the beans are fermented
@@ -128,7 +128,7 @@ export default function OrganicFarmingPartners() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Is Direct Trade Coffee and How Does It Differ from Fair Trade?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Direct trade coffee means the roaster buys directly from the
             producer, without intermediary exporters or commodity brokers, and
             typically at a price negotiated based on quality rather than a
@@ -181,7 +181,7 @@ export default function OrganicFarmingPartners() {
               </tbody>
             </table>
           </div>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             At Ki&apos;bok, we practice direct trade because it lets us pay
             farmers more than fair trade minimums while also ensuring we receive
             beans that meet our cupping standards. We visit our partner farms at
@@ -194,7 +194,7 @@ export default function OrganicFarmingPartners() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             Why Does Sustainable Coffee Sourcing Matter?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Sustainable coffee sourcing matters because coffee farming at scale
             is one of the most environmentally destructive agricultural
             practices in the tropics. Sun-grown monoculture plantations strip
@@ -205,7 +205,7 @@ export default function OrganicFarmingPartners() {
             sustainably grown coffee, farmers face economic pressure to clear
             shade canopy and switch to sun-grown methods.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             When you drink a cup of organic, direct trade coffee at Ki&apos;bok
             in San Miguel de Allende, you are directly supporting a farming
             model that protects Mexico&apos;s cloud forests, sustains indigenous
@@ -225,7 +225,7 @@ export default function OrganicFarmingPartners() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Challenges Do Mexican Coffee Farmers Face Today?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Mexican coffee farmers face three major challenges: climate change,
             coffee leaf rust (la roya), and market access. Rising temperatures
             are pushing viable growing zones higher into the mountains, reducing
@@ -236,7 +236,7 @@ export default function OrganicFarmingPartners() {
             do not always match the cup quality of traditional Typica and
             Bourbon.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Market access remains the most persistent barrier. Small-scale
             coffee producers in Oaxaca and Chiapas often lack the infrastructure
             to process, store, and export their own coffee. Without cooperative
@@ -251,7 +251,7 @@ export default function OrganicFarmingPartners() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             How Can You Support Organic Coffee Farmers in Mexico?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             The most impactful way to support organic coffee farmers in Mexico is
             to buy traceable coffee from roasters who publish their sourcing
             relationships. Look for specific farm or cooperative names on the
@@ -260,7 +260,7 @@ export default function OrganicFarmingPartners() {
             roasters and consumers demand traceability, it creates market
             incentive for the direct relationships that pay farmers fairly.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             When you visit Ki&apos;bok in San Miguel de Allende, every bag we
             sell lists the farm or cooperative, the region, the variety, the
             elevation, and the processing method. We want you to know exactly
@@ -285,7 +285,7 @@ export default function OrganicFarmingPartners() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 How is Mexican organic coffee grown?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 Mexican organic coffee is grown under natural shade canopies in
                 the mountain forests of Chiapas, Oaxaca, and other southern
                 states. Farmers use no synthetic fertilizers or pesticides.
@@ -298,7 +298,7 @@ export default function OrganicFarmingPartners() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 What does direct trade mean for coffee pricing?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 Direct trade typically results in farmers receiving 25% to 100%
                 more per pound than the commodity C-market price, and often
                 more than fair trade minimums. Prices are negotiated based on
@@ -311,7 +311,7 @@ export default function OrganicFarmingPartners() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 Does Ki&apos;bok sell whole bean coffee to take home?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 Yes. We sell whole bean bags of every origin we serve, roasted
                 fresh in small batches. Each bag includes the farm name, region,
                 variety, elevation, and processing method. Visit us on Diez de
@@ -329,7 +329,7 @@ export default function OrganicFarmingPartners() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 What is coffee leaf rust and how does it affect Mexican coffee?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 Coffee leaf rust (Hemileia vastatrix, known in Mexico as la roya)
                 is a fungal disease that attacks coffee leaves, reducing the
                 plant&apos;s ability to photosynthesize and ultimately killing

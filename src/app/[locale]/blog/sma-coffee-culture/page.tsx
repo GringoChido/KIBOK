@@ -46,7 +46,7 @@ export default function SmaCoffeeCulture() {
         </div>
 
         <div className="prose-kibok mt-12 space-y-6">
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             San Miguel de Allende has been named one of the world&apos;s best
             cities by Travel + Leisure for nearly a decade running. Visitors
             come for the colonial architecture, the art galleries, the
@@ -56,7 +56,7 @@ export default function SmaCoffeeCulture() {
             park bench into a genuine coffee destination with beans sourced from
             farms a few hundred kilometers south.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             As a UNESCO World Heritage city that draws expats, artists, and
             travelers from every continent, San Miguel has a unique coffee
             culture shaped by the collision of Mexican tradition, international
@@ -68,7 +68,7 @@ export default function SmaCoffeeCulture() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             Where Can You Get Good Coffee in San Miguel de Allende?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             You can get good coffee in San Miguel de Allende at a growing number
             of specialty cafes concentrated in the Centro historico and the
             surrounding colonias. The best cafes in SMA share a few things in
@@ -79,7 +79,7 @@ export default function SmaCoffeeCulture() {
             beans from Chiapas and Oaxaca in a space designed for both quick
             espressos and slow pour-over sessions.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             Beyond the specialty shops, San Miguel retains its traditional coffee
             culture. Corner tiendas still serve cafe de olla, the piloncillo-
             and cinnamon-sweetened clay-pot coffee that predates espresso machines
@@ -92,7 +92,7 @@ export default function SmaCoffeeCulture() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Makes Coffee Culture in SMA Different From Other Mexican Cities?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             What sets San Miguel&apos;s coffee culture apart is its
             international community. Unlike Mexico City or Guadalajara, where
             the specialty coffee boom is driven primarily by young Mexican
@@ -103,7 +103,7 @@ export default function SmaCoffeeCulture() {
             Americano to a retired couple from Toronto, and a matcha latte to a
             visitor from Kyoto, all before noon.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             This multilingual, multicultural clientele pushes SMA cafes to be
             more versatile than their counterparts in larger cities. Menus tend
             to be bilingual or trilingual. Baristas explain brewing methods
@@ -115,7 +115,7 @@ export default function SmaCoffeeCulture() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Is the History of Coffee in San Miguel de Allende?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             San Miguel de Allende is not itself a coffee-growing region. The
             city sits at 1,900 meters in the semi-arid highlands of Guanajuato,
             too dry and too cold at night for coffee cultivation. But its
@@ -125,7 +125,7 @@ export default function SmaCoffeeCulture() {
             likely from Veracruz, which was then the country&apos;s dominant
             coffee region and a major trading partner with the Bajio.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             The modern cafe culture emerged in the 2000s, catalyzed by the
             city&apos;s booming tourism and expat population. Early specialty
             shops introduced the idea that Mexican coffee could be more than a
@@ -138,7 +138,7 @@ export default function SmaCoffeeCulture() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             How Does San Miguel&apos;s Art Scene Influence Its Cafes?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             San Miguel&apos;s art scene directly shapes its cafe culture. Many
             of the best cafes in SMA double as informal galleries, with rotating
             exhibitions on their walls and design-forward interiors that reflect
@@ -148,7 +148,7 @@ export default function SmaCoffeeCulture() {
             exist because we believe that where you drink coffee affects how it
             tastes.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             This is not accidental. San Miguel is home to one of Mexico&apos;s
             oldest art schools (the Escuela de Bellas Artes, founded 1938) and
             hosts major cultural events throughout the year, from the Festival
@@ -162,7 +162,7 @@ export default function SmaCoffeeCulture() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             What Should You Order at a Specialty Coffee Shop in SMA?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             At a specialty coffee shop in San Miguel de Allende, start with
             whatever the barista recommends as the current single origin. This
             rotates frequently and gives you the most direct expression of
@@ -172,7 +172,7 @@ export default function SmaCoffeeCulture() {
             variation, several SMA shops now prepare it with specialty-grade
             beans and real piloncillo.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             At Ki&apos;bok, our{" "}
             <Link
               href="/menu"
@@ -190,7 +190,7 @@ export default function SmaCoffeeCulture() {
           <h2 className="mt-12 mb-4 font-heading text-2xl font-bold text-kibok-ink">
             When Is the Best Time to Visit San Miguel&apos;s Cafes?
           </h2>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             The best time to visit San Miguel&apos;s cafes is mid-morning,
             between 9:00 and 11:00, when the light in Centro is golden and the
             pace is unhurried. Weekday mornings are quieter, making them ideal
@@ -199,7 +199,7 @@ export default function SmaCoffeeCulture() {
             celebrations), cafes fill early and the energy shifts from
             contemplative to electric.
           </p>
-          <p className="font-body text-lg leading-relaxed text-kibok-warm-gray">
+          <p className="font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
             San Miguel&apos;s climate is another gift to its coffee culture. At
             1,900 meters, mornings are cool enough year-round to make a hot cup
             of coffee feel right, even in May. Afternoons warm into the low 80s
@@ -223,7 +223,7 @@ export default function SmaCoffeeCulture() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 Where to get good coffee in San Miguel de Allende?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 The best specialty coffee in San Miguel de Allende is found in
                 Centro, particularly along the streets surrounding the Jardin
                 Principal. Ki&apos;bok Coffee on Diez de Sollano y Dávalos
@@ -236,7 +236,7 @@ export default function SmaCoffeeCulture() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 Is San Miguel de Allende a coffee-producing region?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 No. San Miguel sits in the semi-arid highlands of Guanajuato at
                 1,900 meters and does not have the tropical climate needed for
                 coffee cultivation. However, the city&apos;s cafes source beans
@@ -249,7 +249,7 @@ export default function SmaCoffeeCulture() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 Do coffee shops in San Miguel have English-speaking staff?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 Yes. Most specialty coffee shops in Centro cater to an
                 international clientele and have bilingual (English and Spanish)
                 staff. Ki&apos;bok serves visitors in English, Spanish, and
@@ -261,7 +261,7 @@ export default function SmaCoffeeCulture() {
               <h3 className="font-heading text-lg font-bold text-kibok-ink">
                 What is cafe de olla?
               </h3>
-              <p className="mt-2 font-body text-lg leading-relaxed text-kibok-warm-gray">
+              <p className="mt-2 font-body text-base leading-relaxed md:text-lg text-kibok-warm-gray">
                 Cafe de olla is a traditional Mexican coffee preparation brewed
                 in a clay pot (olla de barro) with piloncillo (unrefined cane
                 sugar), cinnamon, and sometimes clove or orange peel. It predates
