@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { NAV_LINKS } from "@/lib/constants";
 import { IMAGES } from "@/lib/images";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { SocialIcons } from "@/components/shared/SocialIcons";
 
 export const Navbar = () => {
   const t = useTranslations("nav");
@@ -64,6 +65,7 @@ export const Navbar = () => {
                 <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-kibok-gold transition-all duration-300 group-hover:w-full" />
               </Link>
             ))}
+            <SocialIcons variant={scrolled ? "dark" : "light"} size={16} />
             <LanguageSwitcher variant={scrolled ? "dark" : "light"} />
           </div>
 

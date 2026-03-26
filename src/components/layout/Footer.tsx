@@ -6,6 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { SITE, LOCATION, NAV_LINKS } from "@/lib/constants";
 import { IMAGES } from "@/lib/images";
 import { StampGraphic } from "@/components/shared/StampGraphic";
+import { SocialIcons } from "@/components/shared/SocialIcons";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export const Footer = () => {
@@ -60,14 +61,7 @@ export const Footer = () => {
               <p className="font-body text-sm text-kibok-cream/80">{LOCATION.city}</p>
               <p className="mt-3 font-body text-sm text-kibok-gold">{t("location.hours")}</p>
             </address>
-            <a
-              href={SITE.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 inline-block font-heading text-sm font-medium uppercase tracking-wider text-kibok-cream/80 transition-colors hover:text-kibok-gold"
-            >
-              {SITE.instagramHandle}
-            </a>
+            <SocialIcons variant="light" size={18} className="mt-4" />
           </div>
 
           {/* Newsletter */}

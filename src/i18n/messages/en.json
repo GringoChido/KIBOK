@@ -24,20 +24,27 @@
     "heading": "Menu Highlights",
     "link": "Full Menu"
   },
-  "cultural": {
+  "food": {
     "heading": "More Than Coffee",
-    "subheading": "At the crossroads of art, music, and the perfect cup.",
-    "music_title": "Live Music Fridays",
-    "music_desc": "Jazz and acoustic sets in the courtyard — the perfect soundtrack to your evening cortado.",
-    "art_title": "Local Art on Our Walls",
-    "art_desc": "Rotating exhibitions by San Miguel's thriving community of painters, printmakers, and photographers.",
-    "community_title": "Community Events",
-    "community_desc": "Workshops, cuppings, cultural meetups — Ki'bok is where SMA's international community gathers.",
-    "festival_title": "Festival Season",
-    "festival_desc": "From Day of the Dead to the Jazz Festival, we're at the heart of SMA's most vibrant celebrations."
+    "subheading": "From traditional Mexican breakfasts to fresh-baked pastries — every dish is made with locally sourced ingredients and cooked with love.",
+    "mexican_title": "Desayuno Mexicano",
+    "mexican_desc": "Start your morning the authentic way — chilaquiles verdes or rojos, huevos rancheros, enfrijoladas, and fresh salsas made daily. Our traditional Mexican breakfast is the real deal.",
+    "gringo_title": "Gringo Breakfast",
+    "gringo_desc": "Avocado toast on house sourdough, granola bowls with seasonal fruit, eggs your way, and the smoothest cold brew in Centro. Comfort food, Ki'bok style.",
+    "pastry_title": "Pastries & Desserts",
+    "pastry_desc": "Fresh-baked croissants, banana bread with walnuts, seasonal cakes, and treats that pair perfectly with your afternoon espresso. All made in-house, every single day.",
+    "cta": "See the Full Menu"
   },
-  "sma_divider": {
-    "text": "In the Heart of San Miguel"
+  "cowork": {
+    "heading": "Come Work at Ki'bok",
+    "subheading": "Fast WiFi, great coffee, and a space designed for getting things done. Remote workers and digital nomads — you're home.",
+    "wifi": "High-Speed WiFi",
+    "wifi_desc": "Reliable, fast internet that keeps up with your video calls and uploads.",
+    "power": "Power Outlets Everywhere",
+    "power_desc": "Every table has easy access to outlets. No fighting for a plug.",
+    "vibe": "The Perfect Work Vibe",
+    "vibe_desc": "Not too loud, not too quiet. Dark, moody, focused — with a cortado always within reach.",
+    "cta": "Find Us in Centro"
   },
   "location": {
     "heading_1": "Find Us in",

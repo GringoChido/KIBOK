@@ -24,20 +24,27 @@
     "heading": "Destacados del Menú",
     "link": "Menú Completo"
   },
-  "cultural": {
+  "food": {
     "heading": "Más Que Café",
-    "subheading": "En la encrucijada del arte, la música y la taza perfecta.",
-    "music_title": "Música en Vivo los Viernes",
-    "music_desc": "Jazz y sets acústicos en el patio — la banda sonora perfecta para tu cortado vespertino.",
-    "art_title": "Arte Local en Nuestras Paredes",
-    "art_desc": "Exposiciones rotativas de la vibrante comunidad de pintores, grabadores y fotógrafos de San Miguel.",
-    "community_title": "Eventos Comunitarios",
-    "community_desc": "Talleres, catas, encuentros culturales — Ki'bok es donde se reúne la comunidad internacional de SMA.",
-    "festival_title": "Temporada de Festivales",
-    "festival_desc": "Del Día de Muertos al Festival de Jazz, estamos en el corazón de las celebraciones más vibrantes de SMA."
+    "subheading": "Desde desayunos mexicanos tradicionales hasta repostería recién horneada — cada platillo está hecho con ingredientes locales y mucho cariño.",
+    "mexican_title": "Desayuno Mexicano",
+    "mexican_desc": "Empieza tu mañana a lo auténtico — chilaquiles verdes o rojos, huevos rancheros, enfrijoladas y salsas frescas hechas al día. Nuestro desayuno mexicano es el de verdad.",
+    "gringo_title": "Desayuno Gringo",
+    "gringo_desc": "Tostada de aguacate en pan de masa madre, bowls de granola con fruta de temporada, huevos al gusto y el cold brew más suave del Centro. Comida reconfortante, estilo Ki'bok.",
+    "pastry_title": "Repostería y Postres",
+    "pastry_desc": "Croissants recién horneados, pan de plátano con nueces, pasteles de temporada y delicias perfectas para acompañar tu espresso de la tarde. Todo hecho en casa, cada día.",
+    "cta": "Ver el Menú Completo"
   },
-  "sma_divider": {
-    "text": "En el Corazón de San Miguel"
+  "cowork": {
+    "heading": "Trabaja en Ki'bok",
+    "subheading": "WiFi rápido, gran café y un espacio diseñado para ser productivo. Trabajadores remotos y nómadas digitales — están en casa.",
+    "wifi": "WiFi de Alta Velocidad",
+    "wifi_desc": "Internet confiable y rápido para tus videollamadas y archivos.",
+    "power": "Enchufes en Todas las Mesas",
+    "power_desc": "Cada mesa tiene acceso fácil a enchufes. Sin pelear por uno.",
+    "vibe": "El Ambiente Perfecto",
+    "vibe_desc": "Ni muy ruidoso, ni muy silencioso. Oscuro, acogedor, enfocado — con un cortado siempre al alcance.",
+    "cta": "Encuéntranos en el Centro"
   },
   "location": {
     "heading_1": "Encuéntranos en",
