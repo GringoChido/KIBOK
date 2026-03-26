@@ -24,7 +24,6 @@ export const NAV_LINKS = [
   { key: "about", href: "/about" },
   { key: "visit", href: "/visit" },
   { key: "blog", href: "/blog" },
-  { key: "contact", href: "/contact" },
 ] as const;
 
 export const MENU_PRICES = {

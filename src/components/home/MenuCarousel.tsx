@@ -40,10 +40,10 @@ export const MenuCarousel = () => {
       </Container>
 
       <div className="mt-12 overflow-hidden">
-        <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto px-6 pb-4 scrollbar-hide lg:px-8">
+        <div className="flex gap-4 overflow-x-auto px-6 pb-4 scrollbar-hide lg:px-8">
           {highlights.map((item, i) => (
             <ScrollReveal key={item.key} delay={i * 0.06}>
-              <div className="group w-[260px] flex-shrink-0 snap-start overflow-hidden rounded-sm bg-kibok-charcoal md:w-[280px]">
+              <div className="group w-[260px] flex-shrink-0 overflow-hidden rounded-sm bg-kibok-charcoal md:w-[280px]">
                 <div className="relative aspect-[3/4] overflow-hidden">
                   <Image
                     src={item.image}
