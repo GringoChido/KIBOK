@@ -5,7 +5,8 @@ const A = "/ASSETS";
 
 export const IMAGES = {
   // Logo
-  logo: `${A}/download.png`,
+  logo: `${A}/kibok-logo-horizontal.png`,
+  logoStacked: `${A}/kibok-logo-stacked.png`,
 
   // Hero & atmosphere
   heroPoruOver: `${A}/111af2f9acc81ccfee2729de2cd88ffc.jpg`,

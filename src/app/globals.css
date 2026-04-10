@@ -74,3 +74,12 @@ html {
   position: relative;
   top: -4px;
 }
+
+/* Temperature dot — half-fill for "both hot & cold" */
+.temp-dot-both {
+  background: linear-gradient(
+    135deg,
+    var(--color-kibok-terracotta) 50%,
+    var(--color-kibok-sage) 50%
+  );
+}

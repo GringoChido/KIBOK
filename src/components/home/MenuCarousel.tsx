@@ -10,14 +10,14 @@ import { IMAGES } from "@/lib/images";
 import { MENU_PRICES } from "@/lib/constants";
 
 const highlights = [
-  { key: "pourover", image: IMAGES.pourOverBag, price: MENU_PRICES.pourover },
-  { key: "cortado", image: IMAGES.latteArtLeaf, price: MENU_PRICES.cortado },
-  { key: "horchata", image: IMAGES.icedCoffeePour, price: MENU_PRICES.horchata },
-  { key: "chilaquiles", image: IMAGES.chilaquiles, price: MENU_PRICES.chilaquiles },
   { key: "espresso", image: IMAGES.espressoShot, price: MENU_PRICES.espresso },
+  { key: "cortado", image: IMAGES.latteArtLeaf, price: MENU_PRICES.cortado },
+  { key: "cococcino", image: IMAGES.icedCoffeePour, price: MENU_PRICES.cococcino },
+  { key: "chilaquiles_verdes", image: IMAGES.chilaquiles, price: MENU_PRICES.chilaquiles_verdes },
   { key: "cold_brew", image: IMAGES.coffeeTrio, price: MENU_PRICES.cold_brew },
   { key: "avocado_toast", image: IMAGES.huevosRancheros, price: MENU_PRICES.avocado_toast },
   { key: "latte", image: IMAGES.latteArtHeart, price: MENU_PRICES.latte },
+  { key: "affogato", image: IMAGES.pourOverBag, price: MENU_PRICES.affogato },
 ];
 
 export const MenuCarousel = () => {

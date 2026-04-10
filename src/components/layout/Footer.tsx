@@ -26,7 +26,7 @@ export const Footer = () => {
         <div className="grid gap-12 md:grid-cols-4">
           {/* Brand */}
           <div>
-            <Image src={IMAGES.logo} alt="Ki'bok Coffee" width={140} height={28} className="h-6 w-auto" />
+            <Image src={IMAGES.logo} alt="Ki'bok Coffee SMA" width={200} height={34} className="h-7 w-auto invert" />
             <p className="mt-3 font-heading text-sm uppercase tracking-widest text-kibok-warm-gray">
               {t("footer.tagline")}
             </p>

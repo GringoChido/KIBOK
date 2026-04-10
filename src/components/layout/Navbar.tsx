@@ -41,11 +41,11 @@ export const Navbar = () => {
           <Link href="/" className="relative block">
             <Image
               src={IMAGES.logo}
-              alt="Ki'bok Coffee"
-              width={160}
-              height={32}
-              className={`h-7 w-auto transition-all duration-500 ${
-                scrolled ? "invert brightness-0" : ""
+              alt="Ki'bok Coffee SMA"
+              width={260}
+              height={44}
+              className={`h-8 w-auto transition-all duration-500 ${
+                scrolled ? "" : "invert"
               }`}
               priority
             />
