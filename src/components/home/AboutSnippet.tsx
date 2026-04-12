@@ -5,7 +5,6 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
-import { StampGraphic } from "@/components/shared/StampGraphic";
 import { Container } from "@/components/layout/Container";
 import { IMAGES } from "@/lib/images";
 
@@ -41,10 +40,6 @@ export const AboutSnippet = () => {
                     aria-hidden
                   />
                 </div>
-              </div>
-              {/* Stamp at intersection — hidden on small mobile */}
-              <div className="absolute -bottom-4 right-8 z-20 hidden sm:block">
-                <StampGraphic src={IMAGES.stampTeapot} size={100} rotation={-8} opacity={0.6} />
               </div>
             </div>
           </ScrollReveal>

@@ -6,8 +6,6 @@ import { Container } from "@/components/layout/Container";
 import { MarqueeStrip } from "@/components/layout/MarqueeStrip";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
-import { StampGraphic } from "@/components/shared/StampGraphic";
-import { StampBadge } from "@/components/shared/StampBadge";
 import { PullQuote } from "@/components/shared/PullQuote";
 import { IMAGES } from "@/lib/images";
 
@@ -17,7 +15,7 @@ export const AboutPageContent = () => {
   return (
     <>
       {/* Hero with espresso steam photo */}
-      <section className="relative overflow-hidden bg-kibok-ink pb-20 pt-36">
+      <section className="grain-overlay relative overflow-hidden bg-kibok-ink pb-20 pt-36">
         <div className="absolute inset-0 z-0">
           <Image
             src={IMAGES.espressoSteam}
@@ -31,7 +29,7 @@ export const AboutPageContent = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-kibok-ink/60 via-kibok-ink/40 to-kibok-ink" />
         </div>
         <Container className="relative z-10">
-          <h1 className="font-heading text-[clamp(3rem,10vw,8rem)] font-bold uppercase leading-[0.85] tracking-tight text-kibok-cream">
+          <h1 className="font-display text-[clamp(3rem,10vw,8rem)] font-bold leading-[0.85] tracking-tight text-kibok-cream">
             {t("heading_1")}
             <br />
             <span className="text-kibok-terracotta">
@@ -42,14 +40,6 @@ export const AboutPageContent = () => {
             {t("intro")}
           </p>
         </Container>
-        <div className="absolute bottom-8 right-8 z-10 hidden opacity-15 md:block">
-          <StampGraphic
-            src={IMAGES.stampCactus}
-            size={100}
-            rotation={6}
-            blendMode="screen"
-          />
-        </div>
       </section>
 
       <MarqueeStrip />
@@ -67,14 +57,6 @@ export const AboutPageContent = () => {
                     fill
                     className="object-cover photo-warm"
                     sizes="(max-width: 768px) 100vw, 50vw"
-                  />
-                </div>
-                <div className="absolute -bottom-6 -right-4 z-10">
-                  <StampGraphic
-                    src={IMAGES.stampBeans}
-                    size={100}
-                    rotation={-8}
-                    opacity={0.7}
                   />
                 </div>
               </div>
@@ -124,9 +106,6 @@ export const AboutPageContent = () => {
             </div>
           </div>
         </Container>
-        <div className="absolute bottom-8 left-8 hidden md:block">
-          <StampBadge size={120} rotation={10} variant="light" />
-        </div>
       </section>
 
       {/* The Craft — photo grid */}

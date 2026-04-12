@@ -6,7 +6,6 @@ import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/layout/Container";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
-import { StampGraphic } from "@/components/shared/StampGraphic";
 import { IMAGES } from "@/lib/images";
 
 const perks = ["wifi", "power", "vibe"] as const;
@@ -34,10 +33,6 @@ export const CoworkSection = () => {
                 className="object-cover photo-warm"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
-              {/* Floating stamp */}
-              <div className="absolute -bottom-4 -right-4 z-10">
-                <StampGraphic src={IMAGES.stampTeapot} size={90} rotation={12} opacity={0.6} />
-              </div>
             </div>
           </ScrollReveal>
 

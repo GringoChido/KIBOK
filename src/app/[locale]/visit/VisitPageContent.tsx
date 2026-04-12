@@ -8,8 +8,6 @@ import { Container } from "@/components/layout/Container";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { Button } from "@/components/shared/Button";
-import { StampGraphic } from "@/components/shared/StampGraphic";
-import { StampBadge } from "@/components/shared/StampBadge";
 import { SocialIcons } from "@/components/shared/SocialIcons";
 import { MarqueeStrip } from "@/components/layout/MarqueeStrip";
 
@@ -21,13 +19,13 @@ export const VisitPageContent = () => {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-kibok-charcoal pb-20 pt-36">
+      <section className="grain-overlay relative overflow-hidden bg-kibok-charcoal pb-20 pt-36">
         <div className="absolute inset-0 z-0">
           <Image src={IMAGES.smaStreetSunset} alt="" fill className="object-cover photo-warm opacity-40" sizes="100vw" priority aria-hidden />
           <div className="absolute inset-0 bg-gradient-to-b from-kibok-charcoal/50 via-kibok-charcoal/30 to-kibok-charcoal" />
         </div>
         <Container className="relative z-10">
-          <h1 className="font-heading text-[clamp(3rem,10vw,8rem)] font-bold uppercase leading-[0.85] tracking-tight text-kibok-cream">
+          <h1 className="font-display text-[clamp(3rem,10vw,8rem)] font-bold leading-[0.85] tracking-tight text-kibok-cream">
             {t("visit_page.heading_1")}<br />
             <span className="text-kibok-gold">{t("visit_page.heading_2")}</span>
           </h1>
@@ -97,12 +95,6 @@ export const VisitPageContent = () => {
             ))}
           </div>
         </Container>
-        <div className="absolute right-8 top-8 hidden md:block">
-          <StampBadge size={100} rotation={8} variant="dark" />
-        </div>
-        <div className="absolute bottom-8 left-8 hidden md:block">
-          <StampGraphic src={IMAGES.stampCactus} size={80} rotation={-6} opacity={0.1} />
-        </div>
       </section>
 
       {/* Proximity strip */}

@@ -31,10 +31,13 @@ export const MARQUEE_ITEMS = [
 
 export const NAV_LINKS = [
   { key: "menu", href: "/menu" },
+  { key: "beans", href: "/beans" },
   { key: "about", href: "/about" },
   { key: "visit", href: "/visit" },
   { key: "blog", href: "/blog" },
 ] as const;
+
+export const SPOTIFY_PLAYLIST_ID = "37i9dQZF1DXdSjVZQzv2tl";
 
 /* ─── Menu Types ─────────────────────────────────────────── */
 export type TempIndicator = "hot" | "cold" | "both";

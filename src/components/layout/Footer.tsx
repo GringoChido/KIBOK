@@ -5,7 +5,6 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { SITE, LOCATION, NAV_LINKS } from "@/lib/constants";
 import { IMAGES } from "@/lib/images";
-import { StampGraphic } from "@/components/shared/StampGraphic";
 import { SocialIcons } from "@/components/shared/SocialIcons";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
@@ -13,15 +12,7 @@ export const Footer = () => {
   const t = useTranslations();
 
   return (
-    <footer className="relative overflow-hidden bg-kibok-charcoal text-kibok-cream">
-      {/* Scattered stamps at very low opacity */}
-      <div className="absolute left-[10%] top-12 hidden md:block">
-        <StampGraphic src={IMAGES.stampCactus} size={70} rotation={-20} opacity={0.06} blendMode="screen" animate={false} />
-      </div>
-      <div className="absolute right-[15%] top-24 hidden md:block">
-        <StampGraphic src={IMAGES.stampBeans} size={60} rotation={15} opacity={0.05} blendMode="screen" animate={false} />
-      </div>
-
+    <footer className="grain-overlay relative overflow-hidden bg-kibok-charcoal text-kibok-cream">
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid gap-12 md:grid-cols-4">
           {/* Brand */}

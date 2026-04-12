@@ -5,14 +5,13 @@ import { useTranslations } from "next-intl";
 import { Container } from "@/components/layout/Container";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
-import { StampGraphic } from "@/components/shared/StampGraphic";
 import { IMAGES } from "@/lib/images";
 
-const cards: { key: string; stamp: string; large: boolean; image?: string }[] = [
-  { key: "music", stamp: IMAGES.stampTeapot, large: true },
-  { key: "art", stamp: IMAGES.stampCactus, large: false },
-  { key: "community", stamp: IMAGES.stampCat, large: false, image: IMAGES.baristaHandoff },
-  { key: "festival", stamp: IMAGES.stampBeans, large: false },
+const cards: { key: string; large: boolean; image?: string }[] = [
+  { key: "music", large: true },
+  { key: "art", large: false },
+  { key: "community", large: false, image: IMAGES.baristaHandoff },
+  { key: "festival", large: false },
 ];
 
 export const CulturalSection = () => {
@@ -85,16 +84,6 @@ export const CulturalSection = () => {
                   </p>
                 </div>
 
-                {/* Stamp decoration */}
-                <div className="absolute -bottom-2 -right-2">
-                  <StampGraphic
-                    src={card.stamp}
-                    size={card.large ? 90 : 70}
-                    rotation={10 - i * 7}
-                    opacity={0.08}
-                    blendMode="screen"
-                  />
-                </div>
               </div>
             </ScrollReveal>
           ))}

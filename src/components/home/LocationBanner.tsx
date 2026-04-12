@@ -5,7 +5,6 @@ import { useTranslations } from "next-intl";
 import { LOCATION } from "@/lib/constants";
 import { IMAGES } from "@/lib/images";
 import { Container } from "@/components/layout/Container";
-import { StampBadge } from "@/components/shared/StampBadge";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 
 export const LocationBanner = () => {
@@ -13,7 +12,7 @@ export const LocationBanner = () => {
 
   return (
     <>
-      <section className="relative overflow-hidden bg-kibok-charcoal py-24 md:py-32">
+      <section className="grain-overlay relative overflow-hidden bg-kibok-charcoal py-24 md:py-32">
         {/* Storefront background */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -31,7 +30,7 @@ export const LocationBanner = () => {
           <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
             <div>
               <ScrollReveal>
-                <h2 className="font-heading text-[clamp(2.5rem,6vw,4.5rem)] font-bold uppercase leading-[0.95] text-kibok-cream">
+                <h2 className="font-display text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-[0.95] text-kibok-cream">
                   {t("heading_1")}
                   <br />
                   <span className="text-kibok-gold">{t("heading_2")}</span>
@@ -82,10 +81,6 @@ export const LocationBanner = () => {
           </div>
         </Container>
 
-        {/* Floating stamp badge */}
-        <div className="absolute right-8 top-8 hidden opacity-20 md:block">
-          <StampBadge size={140} rotation={-15} variant="light" />
-        </div>
       </section>
 
       {/* Proximity strip */}

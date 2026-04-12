@@ -6,8 +6,8 @@ import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/layout/Container";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
-import { StampGraphic } from "@/components/shared/StampGraphic";
 import { IMAGES } from "@/lib/images";
+import { VibeMeter } from "@/components/shared/VibeMeter";
 
 const spacePhotos = [
   { src: IMAGES.coffeeTrio, alt: "Three coffees on dark wood bar" },
@@ -37,6 +37,12 @@ export const SpaceSection = () => {
             <p className="mt-4 max-w-lg font-body text-base text-kibok-cream/50 md:text-lg">
               {t("about_page.space_body_1")}
             </p>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.15}>
+            <div className="mt-8">
+              <VibeMeter />
+            </div>
           </ScrollReveal>
 
           <div className="mt-12 grid grid-cols-2 gap-2 md:gap-3 lg:grid-cols-4">
@@ -119,10 +125,6 @@ export const SpaceSection = () => {
           </div>
         </Container>
 
-        {/* Stamp */}
-        <div className="absolute bottom-8 right-8 hidden md:block">
-          <StampGraphic src={IMAGES.stampTeapot} size={80} rotation={12} opacity={0.1} />
-        </div>
       </div>
     </section>
   );

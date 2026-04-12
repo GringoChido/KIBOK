@@ -7,7 +7,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Container } from "@/components/layout/Container";
 import { MarqueeStrip } from "@/components/layout/MarqueeStrip";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
-import { StampGraphic } from "@/components/shared/StampGraphic";
 import { IMAGES } from "@/lib/images";
 import {
   DRINK_SECTIONS,
@@ -233,23 +232,6 @@ const ExtrasCard = ({
 );
 
 /* ═══════════════════════════════════════════════════════════
-   Stamp mapping per category
-   ═══════════════════════════════════════════════════════════ */
-const stampForCategory: Record<string, keyof typeof IMAGES> = {
-  espresso_bar: "stampBeans",
-  milk_bar: "stampTeapot",
-  coffee_free: "stampCactus",
-  house_coffee: "stampBeans",
-  slow_bar: "stampTeapot",
-  house_dessert: "stampCat",
-  soft_drinks: "stampCactus",
-  entrees: "stampBeans",
-  ciabatta_sandwich: "stampCat",
-  quinoa_bowls: "stampCactus",
-  platters: "stampTeapot",
-};
-
-/* ═══════════════════════════════════════════════════════════
    Category section — single menu category block with
    alternating dark/cream backgrounds
    ═══════════════════════════════════════════════════════════ */
@@ -265,8 +247,6 @@ const CategorySection = ({
   extraContent?: React.ReactNode;
 }) => {
   const isDark = index % 2 === 0;
-  const stampKey = stampForCategory[section.categoryKey] || "stampBeans";
-  const stampSrc = IMAGES[stampKey];
 
   return (
     <section
@@ -284,15 +264,6 @@ const CategorySection = ({
             </h2>
             <div className="mt-2 h-0.5 w-16 bg-kibok-gold" />
           </ScrollReveal>
-          <div className="hidden md:block">
-            <StampGraphic
-              src={stampSrc}
-              size={70}
-              rotation={index * 5 - 10}
-              opacity={0.12}
-              blendMode={isDark ? "screen" : "multiply"}
-            />
-          </div>
         </div>
 
         {extraContent && (
@@ -342,7 +313,7 @@ export const MenuPageContent = () => {
   return (
     <>
       {/* ── Hero ─────────────────────────────────────── */}
-      <section className="relative overflow-hidden bg-kibok-ink pb-20 pt-36">
+      <section className="grain-overlay relative overflow-hidden bg-kibok-ink pb-20 pt-36">
         <div className="absolute inset-0 z-0">
           <Image
             src={IMAGES.coffeeTrio}
@@ -356,7 +327,7 @@ export const MenuPageContent = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-kibok-ink/70 via-kibok-ink/50 to-kibok-ink" />
         </div>
         <Container className="relative z-10">
-          <h1 className="font-heading text-[clamp(3rem,10vw,8rem)] font-bold uppercase leading-[0.85] tracking-tight text-kibok-cream">
+          <h1 className="font-display text-[clamp(3rem,10vw,8rem)] font-bold leading-[0.85] tracking-tight text-kibok-cream">
             {t("menu_page.heading_1")}
             <br />
             <span className="text-kibok-gold">
@@ -367,15 +338,6 @@ export const MenuPageContent = () => {
             {t("menu_page.subheading")}
           </p>
         </Container>
-        <div className="absolute bottom-8 right-8 z-10 hidden md:block">
-          <StampGraphic
-            src={IMAGES.stampBeans}
-            size={100}
-            rotation={-12}
-            opacity={0.15}
-            blendMode="screen"
-          />
-        </div>
       </section>
 
       <MarqueeStrip />

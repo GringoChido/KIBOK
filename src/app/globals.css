@@ -13,8 +13,10 @@
   --color-kibok-sage: #7e876d;
   --color-kibok-gold: #d4a853;
 
+  --font-display: "Cormorant Garamond", Georgia, serif;
   --font-heading: "Space Grotesk", system-ui, sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
+  --color-kibok-blush: #d4a08a;
 }
 
 body {
@@ -46,23 +48,30 @@ html {
   scrollbar-width: none;
 }
 
-/* Stamp/linocut decoration hover pulse */
-.stamp-float {
-  animation: stamp-bob 6s ease-in-out infinite;
+/* Grain overlay for dark sections */
+.grain-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
 }
 
-@keyframes stamp-bob {
-  0%, 100% { transform: translateY(0) rotate(var(--stamp-rotation, -12deg)); }
-  50% { transform: translateY(-8px) rotate(var(--stamp-rotation, -12deg)); }
-}
-
-/* Stamp/linocut blend mode treatments */
-.stamp-graphic {
+/* Paper texture for light sections */
+.paper-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.02;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
   mix-blend-mode: multiply;
-}
-
-.stamp-graphic-screen {
-  mix-blend-mode: screen;
 }
 
 /* Dotted leader line for menu items */
@@ -73,6 +82,11 @@ html {
   margin: 0 0.75rem;
   position: relative;
   top: -4px;
+}
+
+/* CTA warm glow on hover */
+.cta-glow:hover {
+  box-shadow: 0 0 20px rgba(196, 112, 75, 0.3);
 }
 
 /* Temperature dot — half-fill for "both hot & cold" */

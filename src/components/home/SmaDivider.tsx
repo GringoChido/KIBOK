@@ -5,7 +5,6 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { IMAGES } from "@/lib/images";
-import { StampGraphic } from "@/components/shared/StampGraphic";
 
 export const SmaDivider = () => {
   const t = useTranslations("sma_divider");
@@ -46,13 +45,6 @@ export const SmaDivider = () => {
         </motion.h2>
       </div>
 
-      {/* Edge stamps */}
-      <div className="absolute left-6 top-8 z-10 hidden md:block">
-        <StampGraphic src={IMAGES.stampCactus} size={70} rotation={-15} opacity={0.1} blendMode="screen" />
-      </div>
-      <div className="absolute bottom-8 right-6 z-10 hidden md:block">
-        <StampGraphic src={IMAGES.stampBeans} size={60} rotation={12} opacity={0.1} blendMode="screen" />
-      </div>
     </section>
   );
 };

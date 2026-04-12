@@ -1,0 +1,66 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { Container } from "@/components/layout/Container";
+import { ScrollReveal } from "@/components/shared/ScrollReveal";
+import { SectionHeading } from "@/components/shared/SectionHeading";
+
+const products = [
+  { key: "1", rotate: "rotate-1" },
+  { key: "2", rotate: "-rotate-1" },
+] as const;
+
+export const BeansSection = () => {
+  const t = useTranslations();
+
+  return (
+    <section className="relative overflow-hidden bg-kibok-cream py-24 md:py-32">
+      <div className="paper-overlay absolute inset-0" />
+
+      <Container className="relative z-10">
+        <SectionHeading>{t("beans_section.heading")}</SectionHeading>
+        <ScrollReveal delay={0.1}>
+          <p className="mt-4 max-w-xl font-body text-lg text-kibok-ink/60">
+            {t("beans_section.subheading")}
+          </p>
+        </ScrollReveal>
+
+        <div className="mt-16 grid gap-8 sm:grid-cols-2">
+          {products.map((product, i) => (
+            <ScrollReveal key={product.key} delay={i * 0.15}>
+              <div
+                className={`group ${product.rotate} rounded-sm bg-white p-6 shadow-lg transition-transform duration-500 hover:rotate-0`}
+              >
+                <div className="aspect-[3/4] flex items-center justify-center rounded-sm bg-kibok-charcoal/10">
+                  <span className="font-body text-sm text-kibok-ink/30">
+                    Product Image
+                  </span>
+                </div>
+
+                <div className="mt-6">
+                  <h3 className="font-display text-2xl font-bold text-kibok-ink">
+                    {t(`beans_page.product_${product.key}_name`)}
+                  </h3>
+                  <p className="mt-1 font-body text-sm text-kibok-ink/50">
+                    {t(`beans_page.product_${product.key}_origin`)}
+                  </p>
+                  <p className="mt-2 font-body text-sm text-kibok-brown">
+                    {t(`beans_page.product_${product.key}_notes`)}
+                  </p>
+                </div>
+
+                <Link
+                  href="/beans"
+                  className="mt-6 inline-block rounded-sm bg-kibok-brown px-6 py-3 font-heading text-xs font-bold uppercase tracking-wider text-kibok-cream transition-all hover:bg-kibok-brown-light active:scale-95"
+                >
+                  {t("beans_section.learn_more")}
+                </Link>
+              </div>
+            </ScrollReveal>
+          ))}
+        </div>
+      </Container>
+    </section>
+  );
+};

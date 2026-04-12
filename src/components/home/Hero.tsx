@@ -6,7 +6,6 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { IMAGES } from "@/lib/images";
-import { StampGraphic } from "@/components/shared/StampGraphic";
 
 export const Hero = () => {
   const t = useTranslations("hero");
@@ -21,7 +20,7 @@ export const Hero = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.6], [1, 0]);
 
   return (
-    <section ref={ref} className="relative h-svh overflow-hidden">
+    <section ref={ref} className="grain-overlay relative h-svh overflow-hidden">
       {/* Background photo — latte art heart barista */}
       <motion.div className="absolute inset-0 z-0" style={{ y: bgY, scale: bgScale }}>
         <Image
@@ -54,7 +53,7 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3 + i * 0.15, ease: "easeOut" }}
           >
             <span
-              className={`block font-heading font-bold uppercase leading-[0.85] tracking-tight drop-shadow-2xl ${
+              className={`block font-display font-bold leading-[0.85] tracking-tight drop-shadow-2xl ${
                 i === 2
                   ? "text-[clamp(3rem,11vw,8rem)] text-kibok-gold"
                   : "text-[clamp(2.5rem,9vw,6rem)] text-kibok-cream"
@@ -101,14 +100,6 @@ export const Hero = () => {
           </Link>
         </motion.div>
       </motion.div>
-
-      {/* Floating stamps */}
-      <div className="absolute bottom-32 right-6 z-10 md:bottom-24 md:right-16">
-        <StampGraphic src={IMAGES.stampCactus} size={110} rotation={-12} opacity={0.15} blendMode="screen" />
-      </div>
-      <div className="absolute left-8 top-32 z-10 hidden opacity-10 md:block">
-        <StampGraphic src={IMAGES.stampCat} size={80} rotation={15} opacity={0.08} blendMode="screen" />
-      </div>
 
       {/* Scroll indicator */}
       <motion.div

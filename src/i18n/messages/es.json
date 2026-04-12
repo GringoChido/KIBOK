@@ -4,7 +4,8 @@
     "about": "Nosotros",
     "visit": "Visítanos",
     "blog": "Blog",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "beans": "Granos"
   },
   "hero": {
     "headline_1": "Donde",
@@ -29,10 +30,12 @@
     "subheading": "Desde desayunos mexicanos tradicionales hasta repostería recién horneada — cada platillo está hecho con ingredientes locales y mucho cariño.",
     "mexican_title": "Desayuno Mexicano",
     "mexican_desc": "Empieza tu mañana a lo auténtico — chilaquiles verdes o rojos, huevos rancheros, enfrijoladas y salsas frescas hechas al día. Nuestro desayuno mexicano es el de verdad.",
+    "mexican_hero": "Prueba: Chilaquiles Verdes — $145",
     "gringo_title": "Desayuno Gringo",
     "gringo_desc": "Tostada de aguacate en pan de masa madre, bowls de granola con fruta de temporada, huevos al gusto y el cold brew más suave del Centro. Comida reconfortante, estilo Ki'bok.",
     "pastry_title": "Repostería y Postres",
     "pastry_desc": "Croissants recién horneados, pan de plátano con nueces, pasteles de temporada y delicias perfectas para acompañar tu espresso de la tarde. Todo hecho en casa, cada día.",
+    "pastry_hero": "Prueba: Croissant de Almendra — $85",
     "cta": "Ver el Menú Completo"
   },
   "cowork": {
@@ -146,6 +149,69 @@
   },
   "marquee": {
     "items": ["KI'BOK COFFEE SMA", "CAFÉ ORGÁNICO MEXICANO", "REPOSTERÍA ARTESANAL", "SAN MIGUEL DE ALLENDE", "INGREDIENTES LOCALES", "HECHO CON CARIÑO"]
+  },
+  "food_expanded": {
+    "avocado_title": "Tostada de Aguacate & Bagels",
+    "avocado_desc": "Aguacate sobre ciabatta de la casa, bagels matutinos con queso crema y tocino crujiente — favoritos de los madrugadores.",
+    "avocado_hero": "Prueba: Tostada de Aguacate — $170",
+    "enchiladas_title": "Enchiladas & Platillos",
+    "enchiladas_desc": "Verdes, rojas o de mole — tortillas hechas a mano rellenas de pollo y bañadas en crema, cebolla y cilantro. El corazón de nuestra cocina.",
+    "enchiladas_hero": "Prueba: Enchiladas de Mole — $175",
+    "quinoa_title": "Bowls de Quinoa",
+    "quinoa_desc": "Vegetales horneados, aguacate, hummus — bowls nutritivos para un almuerzo ligero. Vegano y lleno de sabor.",
+    "quinoa_hero": "Prueba: Bowl Sin Carne — $170",
+    "ciabatta_title": "Sándwiches de Ciabatta",
+    "ciabatta_desc": "Ciabatta de masa madre con queso Oaxaca, lechuga fresca y la proteína de tu elección — BLT, pollo o arrachera.",
+    "ciabatta_hero": "Prueba: Ciabatta de Arrachera — $200",
+    "kitchen_intro": "Cada mañana nuestra cocina se enciende para servirte comida mexicana de alma, repostería artesanal y platillos creativos para el desayuno — todo hecho desde cero con ingredientes locales."
+  },
+  "beans_section": {
+    "heading": "Nuestros Granos",
+    "subheading": "Lleva la experiencia Ki'bok a casa. Nuestro café orgánico mexicano de origen único está disponible en bolsas de grano entero.",
+    "learn_more": "Conoce Más"
+  },
+  "beans_page": {
+    "heading_1": "Nuestro",
+    "heading_2": "Café",
+    "subheading": "Granos orgánicos mexicanos de origen único — tostados con cuidado, obtenidos con propósito.",
+    "product_1_name": "Ki'bok Signature Blend 2026",
+    "product_1_origin": "Una mezcla equilibrada de nuestros mejores granos de las tierras altas de Chiapas y Oaxaca.",
+    "product_1_notes": "Chocolate, cítricos, azúcar morena",
+    "product_1_roast": "Medio",
+    "product_2_name": "Café Explosión",
+    "product_2_origin": "Un origen único audaz de alta altitud de Veracruz con sabor explosivo.",
+    "product_2_notes": "Frutos oscuros, nuez, acabado ahumado",
+    "product_2_roast": "Medio-Oscuro",
+    "origin_heading": "De la Finca a la Taza",
+    "origin_body": "Cada grano que servimos es obtenido directamente de productores orgánicos en Chiapas, Oaxaca y Veracruz. Creemos en relaciones transparentes con nuestros agricultores — precios justos, prácticas sostenibles y calidad excepcional de la semilla a la taza.",
+    "available": "Disponible en tienda",
+    "visit_cta": "Visítanos para llevar una bolsa"
+  },
+  "spotify": {
+    "label": "Ki'bok Radio",
+    "tagline": "Dale play. Ya estás aquí.",
+    "listen_on": "Escuchar en Spotify"
+  },
+  "vibe_meter": {
+    "wifi_label": "WiFi",
+    "wifi_speed": "300 Mbps",
+    "golden_hour": "Hora Dorada",
+    "golden_hour_in": "Hora Dorada en {hours} hrs",
+    "golden_hour_now": "Hora Dorada — ahora",
+    "morning_quiet": "Mañana Tranquila — laptops y lattes",
+    "deep_focus": "Enfoque Profundo — cabezas abajo, espresso fluyendo",
+    "lunch_rush": "Hora del Almuerzo — hora de chilaquiles",
+    "afternoon_drift": "Tarde Tranquila — slow bar y conversación",
+    "pre_golden": "Pre-Hora Dorada — agarra un asiento junto a la ventana",
+    "golden": "Hora Dorada — la ventana mágica"
+  },
+  "origin_map": {
+    "chiapas": "Chiapas",
+    "chiapas_note": "1,400m — chocolate, cítricos, azúcar morena",
+    "oaxaca": "Oaxaca",
+    "oaxaca_note": "1,600m — floral, frutos rojos, miel",
+    "veracruz": "Veracruz",
+    "veracruz_note": "1,200m — nuez, caramelo, cuerpo suave"
   },
   "menu_items": {
     "long_black": { "name": "Long Black", "desc": "Espresso intenso sobre agua caliente" },

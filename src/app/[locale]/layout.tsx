@@ -6,6 +6,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { GrainOverlay } from "@/components/shared/GrainOverlay";
 import { MobileCTA } from "@/components/layout/MobileCTA";
+import { SpotifyWidget } from "@/components/layout/SpotifyWidget";
 
 export default async function LocaleLayout({
   children,
@@ -28,6 +29,7 @@ export default async function LocaleLayout({
       <Navbar />
       <main className="flex-1 pb-16 md:pb-0">{children}</main>
       <Footer />
+      <SpotifyWidget />
       <MobileCTA />
     </NextIntlClientProvider>
   );

@@ -29,12 +29,6 @@ export const IMAGES = {
   parroquiaAerial: `${A}/86364c926e7f98c6039a30012bff5781.jpg`,
   smaStreet: `${A}/48f350e4fff46f7bca570a9f0dda3ca0.jpg`,
 
-  // Stamps & illustrations (linocut / risograph style)
-  stampCactus: `${A}/0f400fc7e8e8227a250025c1db87fc38.jpg`,
-  stampBeans: `${A}/d0ecc23d452d8bc3ff136f66a9cfaefb.jpg`,
-  stampTeapot: `${A}/e8697e13ec479eef45a83e9ad31a73fe.jpg`,
-  stampCat: `${A}/0957ee4bd4d41b2072f6f6daf29a33ae.jpg`,
-
   // Pattern / texture
   beanPattern: `${A}/4b8b96ddd9740d0540f15df70b1d1757.jpg`,
 
