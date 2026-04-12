@@ -19,6 +19,16 @@ export const BeansSection = () => {
   return (
     <section className="relative overflow-hidden bg-kibok-cream py-24 md:py-32">
       <div className="paper-overlay absolute inset-0" />
+      <div className="absolute inset-0 z-[1] opacity-[0.04]">
+        <Image
+          src={IMAGES.beansCupOverhead}
+          alt=""
+          fill
+          className="object-cover"
+          sizes="100vw"
+          aria-hidden
+        />
+      </div>
 
       <Container className="relative z-10">
         <SectionHeading>{t("beans_section.heading")}</SectionHeading>

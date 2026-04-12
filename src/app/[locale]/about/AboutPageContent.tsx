@@ -69,8 +69,8 @@ export const AboutPageContent = () => {
             <ScrollReveal>
               <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
                 <Image
-                  src={IMAGES.extraChemex}
-                  alt="Chemex pour-over and ceramic cup on wooden slab at Ki'bok"
+                  src={IMAGES.craftCopperPourover}
+                  alt="Pour-over coffee being brewed with a copper gooseneck kettle"
                   fill
                   className="object-cover photo-warm"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -123,22 +123,35 @@ export const AboutPageContent = () => {
       </section>
 
       {/* Beans teaser — short, links to beans page */}
-      <section className="bg-kibok-off-white py-16 md:py-20">
+      <section className="bg-kibok-off-white py-20 md:py-24">
         <Container>
-          <div className="mx-auto max-w-2xl text-center">
-            <ScrollReveal>
-              <SectionHeading>{t("beans_heading")}</SectionHeading>
-              <p className="mt-4 font-body text-lg text-kibok-warm-gray">
-                {t("beans_teaser")}
-              </p>
-              <Link
-                href="/beans"
-                className="mt-6 inline-flex items-center gap-2 font-heading text-sm font-bold uppercase tracking-wider text-kibok-brown transition-colors hover:text-kibok-terracotta"
-              >
-                {t("beans_cta")}
-                <span className="text-lg">&rarr;</span>
-              </Link>
+          <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
+            <ScrollReveal direction="left">
+              <div className="relative aspect-square overflow-hidden rounded-sm">
+                <Image
+                  src={IMAGES.beansMacroCloseup}
+                  alt="Extreme close-up of a perfectly roasted coffee bean"
+                  fill
+                  className="object-cover photo-warm"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
             </ScrollReveal>
+            <div>
+              <ScrollReveal>
+                <SectionHeading>{t("beans_heading")}</SectionHeading>
+                <p className="mt-4 font-body text-lg text-kibok-warm-gray">
+                  {t("beans_teaser")}
+                </p>
+                <Link
+                  href="/beans"
+                  className="mt-8 inline-flex items-center gap-2 font-heading text-sm font-bold uppercase tracking-wider text-kibok-brown transition-colors hover:text-kibok-terracotta"
+                >
+                  {t("beans_cta")}
+                  <span className="text-lg">&rarr;</span>
+                </Link>
+              </ScrollReveal>
+            </div>
           </div>
         </Container>
       </section>
@@ -155,16 +168,16 @@ export const AboutPageContent = () => {
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                src: IMAGES.extraBaristaArt,
-                alt: "Ki'bok barista pouring latte art",
+                src: IMAGES.beansCuppedHands,
+                alt: "Selecting the perfect roasted beans by hand",
               },
               {
-                src: IMAGES.extraBarista,
-                alt: "Barista at the espresso machine",
+                src: IMAGES.craftLattePour,
+                alt: "Barista pouring steamed milk into espresso — latte art in progress",
               },
               {
-                src: IMAGES.extraLatteArt,
-                alt: "Ki'bok latte art on wooden table",
+                src: IMAGES.craftCopperPourover,
+                alt: "Copper gooseneck kettle brewing V60 pour-over coffee",
               },
             ].map((photo, i) => (
               <ScrollReveal key={i} delay={i * 0.1}>

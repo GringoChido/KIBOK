@@ -55,8 +55,8 @@ export const BeansPageContent = () => {
             <ScrollReveal direction="left">
               <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
                 <Image
-                  src={IMAGES.extraIcedCoffee}
-                  alt="Ki'bok iced coffee with beans, cinnamon, and star anise"
+                  src={IMAGES.originMexicanHands}
+                  alt="Coffee cherries hand-selected at origin in Mexico"
                   fill
                   className="object-cover photo-warm"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -79,6 +79,31 @@ export const BeansPageContent = () => {
         </Container>
       </section>
 
+      {/* Origin photo strip — the journey */}
+      <section className="bg-kibok-ink py-8 md:py-12">
+        <Container>
+          <div className="grid grid-cols-3 gap-2 md:gap-3">
+            {[
+              { src: IMAGES.originYellowCherries, alt: "Yellow coffee cherries on the branch" },
+              { src: IMAGES.beansCuppedHands, alt: "Roasted beans held in cupped hands" },
+              { src: IMAGES.beansMacroCloseup, alt: "Macro close-up of a roasted coffee bean" },
+            ].map((photo, i) => (
+              <ScrollReveal key={i} delay={i * 0.1}>
+                <div className="group relative aspect-[4/3] overflow-hidden rounded-sm">
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    fill
+                    className="object-cover photo-warm transition-transform duration-700 group-hover:scale-110"
+                    sizes="(max-width: 640px) 33vw, 33vw"
+                  />
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+        </Container>
+      </section>
+
       {/* Product 1: Ki'bok Signature Blend 2026 */}
       <section className="bg-kibok-cream py-24 md:py-32">
         <Container>
@@ -92,6 +117,18 @@ export const BeansPageContent = () => {
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
+                {/* Origin accent — yellow cherries from Chiapas/Oaxaca */}
+                <div className="absolute -bottom-6 -right-4 z-10 hidden md:block">
+                  <div className="relative h-36 w-36 overflow-hidden rounded-sm shadow-xl ring-4 ring-kibok-cream">
+                    <Image
+                      src={IMAGES.originYellowCherries}
+                      alt="Yellow coffee cherries ripening on the branch"
+                      fill
+                      className="object-cover photo-warm"
+                      sizes="144px"
+                    />
+                  </div>
+                </div>
               </div>
             </ScrollReveal>
             <div>
@@ -167,6 +204,18 @@ export const BeansPageContent = () => {
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
+                {/* Origin accent — hand-harvested cherries */}
+                <div className="absolute -bottom-6 -left-4 z-10 hidden md:block">
+                  <div className="relative h-36 w-36 overflow-hidden rounded-sm shadow-xl ring-4 ring-kibok-off-white">
+                    <Image
+                      src={IMAGES.originCherryHarvest}
+                      alt="Freshly harvested coffee cherries in woven basket"
+                      fill
+                      className="object-cover photo-warm"
+                      sizes="144px"
+                    />
+                  </div>
+                </div>
               </div>
             </ScrollReveal>
           </div>
@@ -175,15 +224,16 @@ export const BeansPageContent = () => {
 
       {/* Origin Story */}
       <section className="relative overflow-hidden bg-kibok-ink py-24 md:py-32">
-        <div className="absolute inset-0 z-0 opacity-[0.03]">
+        <div className="absolute inset-0 z-0">
           <Image
-            src={IMAGES.beanPattern}
+            src={IMAGES.beansCupOverhead}
             alt=""
             fill
-            className="object-cover"
+            className="object-cover photo-warm opacity-20"
             sizes="100vw"
             aria-hidden
           />
+          <div className="absolute inset-0 bg-gradient-to-r from-kibok-ink via-kibok-ink/80 to-kibok-ink/60" />
         </div>
 
         <Container className="relative z-10">

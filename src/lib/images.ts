@@ -24,6 +24,10 @@ export const IMAGES = {
   redEnchiladas: `${A}/xilitla-variedad-platillos-destacan-enchiladas.webp`,
   huevosRancheros: `${A}/225467f3f5151b56423c2c1aeea99e56.webp`,
   chilaquiles: `${A}/b25e7d87c6b2e8440e3354ff94db8320.webp`,
+  avocadoToast: `${A}/NEW/food-avocado-toast.webp`,
+  quinoaBowl: `${A}/NEW/food-quinoa-bowl.webp`,
+  ciabattaSandwich: `${A}/NEW/food-ciabatta-sandwich.webp`,
+  pastries: `${A}/NEW/food-pastries.webp`,
 
   // San Miguel de Allende
   parroquiaAerial: `${A}/86364c926e7f98c6039a30012bff5781.webp`,
@@ -63,6 +67,16 @@ export const IMAGES = {
   extraBaristaSteam: `${A}/NEW/extra-photo-5.webp`,
   extraIcedCoffee: `${A}/NEW/extra-photo-6.webp`,
   extraBaristaArt: `${A}/NEW/extra-photo-7.webp`,
+
+  // === NEW — Origin & Bean Journey ===
+  originYellowCherries: `${A}/NEW/origin-yellow-cherries.webp`,
+  originCherryHarvest: `${A}/NEW/origin-cherry-harvest.webp`,
+  originMexicanHands: `${A}/NEW/origin-mexican-hands.webp`,
+  craftLattePour: `${A}/NEW/craft-latte-pour.webp`,
+  craftCopperPourover: `${A}/NEW/craft-copper-pourover.webp`,
+  beansCupOverhead: `${A}/NEW/beans-cup-overhead.webp`,
+  beansCuppedHands: `${A}/NEW/beans-cupped-hands.webp`,
+  beansMacroCloseup: `${A}/NEW/beans-macro-closeup.webp`,
 
   // Brand reference (not used on site, mood only)
   // mesacaFont: `${A}/2b16b34eab7fcb9e5bce4069cb159d49.jpg`,

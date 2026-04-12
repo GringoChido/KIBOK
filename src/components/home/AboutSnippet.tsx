@@ -73,8 +73,8 @@ export const AboutSnippet = () => {
               <div className="absolute -right-2 -top-4 z-10 hidden md:block">
                 <div className="relative h-32 w-32 overflow-hidden rounded-sm shadow-xl ring-4 ring-kibok-cream">
                   <Image
-                    src={IMAGES.espressoShot}
-                    alt=""
+                    src={IMAGES.craftLattePour}
+                    alt="Barista pouring latte art"
                     fill
                     className="object-cover photo-warm"
                     sizes="128px"

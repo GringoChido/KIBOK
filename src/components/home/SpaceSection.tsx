@@ -10,7 +10,7 @@ import { VibeMeter } from "@/components/shared/VibeMeter";
 
 const spacePhotos = [
   { src: IMAGES.coffeeTrio, alt: "Three coffees on dark wood bar" },
-  { src: IMAGES.espressoShot, alt: "Espresso shot with golden crema" },
+  { src: IMAGES.craftCopperPourover, alt: "Pour-over brewing with copper gooseneck kettle" },
   { src: IMAGES.extraChemex, alt: "Chemex pour-over on wooden table at Ki'bok" },
   { src: IMAGES.extraLatteArt, alt: "Ki'bok latte art on branded table" },
 ];
