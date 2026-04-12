@@ -39,23 +39,6 @@ const getGoldenCountdown = (hour: number, minute: number): string | null => {
   return `${mins}m`;
 };
 
-const WifiIcon = () => (
-  <svg
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth={2}
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className="h-4 w-4 text-kibok-gold"
-  >
-    <path d="M5 12.55a11 11 0 0 1 14.08 0" />
-    <path d="M1.42 9a16 16 0 0 1 21.16 0" />
-    <path d="M8.53 16.11a6 6 0 0 1 6.95 0" />
-    <line x1="12" y1="20" x2="12.01" y2="20" />
-  </svg>
-);
-
 export const VibeMeter = () => {
   const t = useTranslations("vibe_meter");
   const [currentTime, setCurrentTime] = useState<Date | null>(null);
@@ -85,32 +68,47 @@ export const VibeMeter = () => {
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className="rounded-sm bg-kibok-charcoal/80 px-4 py-3 backdrop-blur-md md:px-6"
+      className="rounded-sm bg-kibok-cream/10 px-5 py-4 backdrop-blur-sm"
     >
-      <div className="flex items-center justify-between gap-4 text-sm text-kibok-cream">
+      <div className="flex flex-col gap-3 text-sm text-kibok-cream sm:flex-row sm:items-center sm:justify-between sm:gap-4">
+        {/* WiFi message */}
         <div className="flex items-center gap-2">
-          <WifiIcon />
-          <span className="font-mono text-xs tracking-wide text-kibok-cream/80">
-            {t("wifi_speed")}
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="h-3.5 w-3.5 text-kibok-sage"
+          >
+            <path d="M5 12.55a11 11 0 0114.08 0" />
+            <path d="M8.53 16.11a6 6 0 016.95 0" />
+            <circle cx="12" cy="20" r="0.5" fill="currentColor" />
+          </svg>
+          <span className="font-body text-xs text-kibok-cream/70">
+            {t("wifi_message")} ✓
           </span>
         </div>
 
+        {/* Current vibe */}
         <div className="flex items-center gap-2">
           <span
-            className={`h-2 w-2 rounded-full ${
+            className={`h-1.5 w-1.5 rounded-full ${
               isGolden ? "bg-kibok-gold" : "bg-kibok-sage"
             }`}
           />
-          <span className="font-heading text-xs font-medium uppercase tracking-wider">
+          <span className="font-body text-xs text-kibok-cream/80">
             {t(atmosphere)}
           </span>
         </div>
 
-        <div className="font-mono text-xs tracking-wide">
+        {/* Golden hour countdown */}
+        <div className="font-body text-xs">
           {isGolden ? (
             <span className="text-kibok-gold">{t("golden_hour_now")}</span>
           ) : countdown ? (
-            <span className="text-kibok-cream/70">
+            <span className="text-kibok-cream/60">
               {t("golden_hour_in", { time: countdown })}
             </span>
           ) : null}

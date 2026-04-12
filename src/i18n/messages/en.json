@@ -16,10 +16,14 @@
     "cta_visit": "Visit Us"
   },
   "about_snippet": {
-    "heading": "Crafting the Perfect Brew",
-    "body": "Nestled in the heart of San Miguel de Allende's Centro, Ki'bok Coffee is more than a café — it's a space where organic Mexican-sourced beans meet homemade pastries and locally sourced meals. A comfortably elegant space that encourages conversation.",
+    "heading": "Come Have a Coffee With Us",
+    "body": "We saved you a seat. Ki'bok is a warm corner in the heart of Centro where organic Mexican coffee meets homemade food, friendly faces, and the best WiFi in town. Whether you're here for an hour or the whole morning — you belong.",
     "terroir": "Every cup tells a story of Mexican terroir — from the highlands of Chiapas to the mountains of Oaxaca.",
-    "link": "Our Story"
+    "link": "Our Story",
+    "feature_menu": "Full Menu",
+    "feature_breakfast": "Breakfast & Lunch All Day",
+    "feature_wifi": "Free WiFi",
+    "feature_dogs": "Dog Friendly"
   },
   "menu_highlights": {
     "heading": "Menu Highlights",
@@ -55,7 +59,9 @@
     "hours": "Open daily · Closes 7 PM",
     "directions": "Get Directions",
     "rating_text": "stars on Google",
-    "proximity": "5 min walk from the Jardín Principal"
+    "proximity": "5 min walk from the Jardín Principal",
+    "cowork_features": "Strong WiFi · Power at Every Table · Perfect Work Vibe",
+    "cowork_note": "Remote workers & digital nomads — you're home."
   },
   "instagram": {
     "heading": "Follow Along"
@@ -97,7 +103,7 @@
   "about_page": {
     "heading_1": "Our",
     "heading_2": "Story",
-    "intro": "Ki'bok Coffee was born from a deep love for Mexican coffee and the belief that every cup should tell a story. We source our beans directly from organic producers across Mexico, roast them with care, and serve them in spaces designed to bring people together.",
+    "intro": "Ki'bok Coffee was born from a deep love for Mexican coffee and the belief that every cup should be an experience — crafted with the freshest, highest-quality ingredients in a space that's welcoming, warm, and made for connection. We source our beans directly from organic producers across Mexico, roast them with care, and serve them with pride as a Mexican-born brand.",
     "beans_heading": "The Beans",
     "beans_body_1": "Every bean we serve is sourced directly from organic producers in Chiapas, Oaxaca, and Veracruz. We believe in transparent relationships with our farmers — fair prices, sustainable practices, and exceptional quality from seed to cup.",
     "beans_body_2": "Our roasting process honors each origin's unique character, bringing out the natural sweetness, complexity, and depth that make Mexican coffee extraordinary.",
@@ -105,8 +111,16 @@
     "space_body_1": "Our San Miguel de Allende location sits on Diez de Sollano y Dávalos, one of Centro's most beautiful streets. The space is an intimate retreat — dark, moody, and warm, with artistic wall elements and bar seating that invites you to stay a while.",
     "space_body_2": "It's a place where expats meet locals, where artists find inspiration, and where every conversation is accompanied by something delicious.",
     "craft_heading": "The Craft",
-    "craft_body": "Behind every great cup is a passionate team. Our baristas are trained to honor the craft — from precise extraction to latte art, every detail matters.",
-    "pull_quote": "Coffee is more than a beverage — it's an experience that connects farmers, roasters, baristas, and you."
+    "craft_body": "Behind every great cup is a passionate Mexican team pushing the craft forward. Our baristas are trained to honor tradition while embracing innovation — from precise extraction to latte art, every detail matters. We're building something that represents the best of Mexican quality and creativity.",
+    "pull_quote": "Coffee is more than a beverage — it's an experience that connects farmers, roasters, baristas, and you.",
+    "origin_story": "Ki'bok means \"good aromas\" in a Maya language from Tulum, where our story began. Founded by Joel Cunningham and his family, our first café opened in Tulum before we fell in love with San Miguel de Allende and opened our second home here in Centro. Our commitment to sustainability, quality, and innovation drives everything we do — from the beans we source to the spaces we build.",
+    "press_quote": "A tiny café that serves some of the best coffee in the world",
+    "press_attribution": "National Geographic",
+    "natgeo_atmosphere": "Open and airy, the physical manifestation of an Esquivel! album — awash in the chocolaty aroma of fresh-brewed coffee, typically filled with tourists, expats, and locals.",
+    "hemingway_heading": "The Hemingway",
+    "hemingway_body": "Our signature drink — a Cuban cortado double espresso served with brown sugar infusion, a touch of foam, and powdered cinnamon. Named after the man who understood that the best things in life are simple, strong, and unforgettable.",
+    "beans_teaser": "We source our beans directly from organic producers across Chiapas, Oaxaca, and Veracruz.",
+    "beans_cta": "Discover Our Beans"
   },
   "visit_page": {
     "heading_1": "Visit",
@@ -163,7 +177,13 @@
     "ciabatta_title": "Ciabatta Sandwiches",
     "ciabatta_desc": "Sourdough ciabatta loaded with Oaxaca cheese, fresh lettuce, and your choice of protein — BLT, chicken, or arrachera.",
     "ciabatta_hero": "Try: Arrachera Ciabatta — $200",
-    "kitchen_intro": "Every morning our kitchen fires up to serve you Mexican soul food, house-baked pastries, and creative breakfast plates — all made from scratch with locally sourced ingredients."
+    "kitchen_intro": "Every morning our kitchen fires up to serve you Mexican soul food, house-baked pastries, and creative breakfast plates — all made from scratch with locally sourced ingredients.",
+    "rancheros_title": "Huevos Rancheros",
+    "rancheros_desc": "Tortilla, fried eggs, homemade red sauce, beans, Oaxaca cheese, onion and cilantro. A classic Mexican breakfast plate done right.",
+    "rancheros_hero": "Try: Huevos Rancheros — $135",
+    "red_enchiladas_title": "Enchiladas de Mole",
+    "red_enchiladas_desc": "Traditional almond mole over handmade tortillas stuffed with chicken, finished with cream, red onion and cilantro. Rich, deep, unforgettable.",
+    "red_enchiladas_hero": "Try: Enchiladas de Mole — $165"
   },
   "beans_section": {
     "heading": "Our Beans",
@@ -194,16 +214,16 @@
   },
   "vibe_meter": {
     "wifi_label": "WiFi",
-    "wifi_speed": "300 Mbps",
+    "wifi_message": "Strong WiFi for remote working",
     "golden_hour": "Golden Hour",
-    "golden_hour_in": "Golden Hour in {hours} hrs",
-    "golden_hour_now": "Golden Hour — now",
-    "morning_quiet": "Morning Quiet — laptops & lattes",
-    "deep_focus": "Deep Focus — heads down, espresso flowing",
-    "lunch_rush": "Lunch Rush — chilaquiles o'clock",
-    "afternoon_drift": "Afternoon Drift — slow bar & conversation",
-    "pre_golden": "Pre-Golden Hour — grab a window seat",
-    "golden": "Golden Hour — the magic window"
+    "golden_hour_in": "Golden hour in {time}",
+    "golden_hour_now": "Golden hour — right now",
+    "morning_quiet": "Morning vibes — laptops & lattes",
+    "deep_focus": "Deep focus — heads down, espresso flowing",
+    "lunch_rush": "Lunch hour — chilaquiles o'clock",
+    "afternoon_drift": "Afternoon drift — slow bar & conversation",
+    "pre_golden": "Sunset soon — grab a window seat",
+    "golden": "Golden hour — the magic window"
   },
   "origin_map": {
     "chiapas": "Chiapas",

@@ -51,6 +51,19 @@ export const LocationBanner = () => {
                   {LOCATION.rating} {t("rating_text")} &middot; {LOCATION.reviewCount} reviews
                 </p>
               </ScrollReveal>
+
+              {/* Cowork features — merged from SpaceSection */}
+              <ScrollReveal delay={0.25}>
+                <div className="mt-6 border-t border-kibok-cream/10 pt-5">
+                  <p className="font-body text-sm text-kibok-cream/60">
+                    {t("cowork_features")}
+                  </p>
+                  <p className="mt-1 font-body text-xs text-kibok-cream/40 italic">
+                    {t("cowork_note")}
+                  </p>
+                </div>
+              </ScrollReveal>
+
               <ScrollReveal delay={0.3}>
                 <div className="mt-8">
                   <a
@@ -80,7 +93,6 @@ export const LocationBanner = () => {
             </ScrollReveal>
           </div>
         </Container>
-
       </section>
 
       {/* Proximity strip */}

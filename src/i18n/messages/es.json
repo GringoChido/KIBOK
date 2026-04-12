@@ -16,10 +16,14 @@
     "cta_visit": "Visítanos"
   },
   "about_snippet": {
-    "heading": "El Arte del Buen Café",
-    "body": "En el corazón del Centro de San Miguel de Allende, Ki'bok Coffee es más que una cafetería — es un espacio donde los granos orgánicos mexicanos se encuentran con la repostería artesanal y los platillos de ingredientes locales. Un espacio cómodo y elegante que invita a la conversación.",
+    "heading": "Ven a Tomar un Café",
+    "body": "Te guardamos un lugar. Ki'bok es un rincón cálido en el corazón del Centro donde el café orgánico mexicano se encuentra con la comida casera, caras amigables y el mejor WiFi de la ciudad. Ya sea que vengas por una hora o toda la mañana — este es tu lugar.",
     "terroir": "Cada taza cuenta la historia del terroir mexicano — desde las tierras altas de Chiapas hasta las montañas de Oaxaca.",
-    "link": "Nuestra Historia"
+    "link": "Nuestra Historia",
+    "feature_menu": "Menú Completo",
+    "feature_breakfast": "Desayuno y Comida Todo el Día",
+    "feature_wifi": "WiFi Gratis",
+    "feature_dogs": "Pet Friendly"
   },
   "menu_highlights": {
     "heading": "Destacados del Menú",
@@ -55,7 +59,9 @@
     "hours": "Abierto todos los días · Cierra a las 7 PM",
     "directions": "Cómo Llegar",
     "rating_text": "estrellas en Google",
-    "proximity": "A 5 min caminando del Jardín Principal"
+    "proximity": "A 5 min caminando del Jardín Principal",
+    "cowork_features": "WiFi Rápido · Enchufes en Cada Mesa · Ambiente Perfecto",
+    "cowork_note": "Trabajadores remotos y nómadas digitales — están en casa."
   },
   "instagram": {
     "heading": "Síguenos"
@@ -97,7 +103,7 @@
   "about_page": {
     "heading_1": "Nuestra",
     "heading_2": "Historia",
-    "intro": "Ki'bok Coffee nació de un profundo amor por el café mexicano y la creencia de que cada taza debe contar una historia. Obtenemos nuestros granos directamente de productores orgánicos en todo México, los tostamos con cuidado y los servimos en espacios diseñados para reunir a las personas.",
+    "intro": "Ki'bok Coffee nació de un profundo amor por el café mexicano y la creencia de que cada taza debe ser una experiencia — elaborada con los ingredientes más frescos y de la más alta calidad, en un espacio acogedor, cálido y hecho para la conexión. Obtenemos nuestros granos directamente de productores orgánicos en todo México, los tostamos con cuidado y los servimos con orgullo como marca nacida en México.",
     "beans_heading": "Los Granos",
     "beans_body_1": "Cada grano que servimos proviene directamente de productores orgánicos en Chiapas, Oaxaca y Veracruz. Creemos en relaciones transparentes con nuestros agricultores — precios justos, prácticas sostenibles y calidad excepcional de la semilla a la taza.",
     "beans_body_2": "Nuestro proceso de tueste honra el carácter único de cada origen, resaltando la dulzura natural, la complejidad y la profundidad que hacen extraordinario al café mexicano.",
@@ -105,8 +111,16 @@
     "space_body_1": "Nuestra ubicación en San Miguel de Allende está en Diez de Sollano y Dávalos, una de las calles más hermosas del Centro. El espacio es un refugio íntimo — oscuro, cálido y acogedor, con elementos artísticos en las paredes y barra que te invitan a quedarte.",
     "space_body_2": "Es un lugar donde los extranjeros conocen a los locales, donde los artistas encuentran inspiración y donde cada conversación se acompaña de algo delicioso.",
     "craft_heading": "El Oficio",
-    "craft_body": "Detrás de cada gran taza hay un equipo apasionado. Nuestros baristas están entrenados para honrar el oficio — desde la extracción precisa hasta el latte art, cada detalle importa.",
-    "pull_quote": "El café es más que una bebida — es una experiencia que conecta agricultores, tostadores, baristas y a ti."
+    "craft_body": "Detrás de cada gran taza hay un equipo mexicano apasionado que impulsa el oficio. Nuestros baristas están entrenados para honrar la tradición mientras abrazan la innovación — desde la extracción precisa hasta el latte art, cada detalle importa. Estamos construyendo algo que representa lo mejor de la calidad y la creatividad mexicana.",
+    "pull_quote": "El café es más que una bebida — es una experiencia que conecta agricultores, tostadores, baristas y a ti.",
+    "origin_story": "Ki'bok significa \"buenos aromas\" en una lengua maya de Tulum, donde comenzó nuestra historia. Fundado por Joel Cunningham y su familia, nuestro primer café abrió en Tulum antes de enamorarnos de San Miguel de Allende y abrir nuestro segundo hogar aquí en el Centro. Nuestro compromiso con la sostenibilidad, la calidad y la innovación impulsa todo lo que hacemos — desde los granos que obtenemos hasta los espacios que construimos.",
+    "press_quote": "Un pequeño café que sirve de los mejores cafés del mundo",
+    "press_attribution": "National Geographic",
+    "natgeo_atmosphere": "Abierto y aireado, la manifestación física de un álbum de Esquivel! — envuelto en el aroma achocolatado del café recién preparado, típicamente lleno de turistas, expatriados y locales.",
+    "hemingway_heading": "El Hemingway",
+    "hemingway_body": "Nuestra bebida insignia — un cortado cubano doble espresso servido con infusión de azúcar morena, un toque de espuma y canela en polvo. Nombrado por el hombre que entendía que las mejores cosas de la vida son simples, fuertes e inolvidables.",
+    "beans_teaser": "Obtenemos nuestros granos directamente de productores orgánicos en Chiapas, Oaxaca y Veracruz.",
+    "beans_cta": "Descubre Nuestros Granos"
   },
   "visit_page": {
     "heading_1": "Visí-",
@@ -163,7 +177,13 @@
     "ciabatta_title": "Sándwiches de Ciabatta",
     "ciabatta_desc": "Ciabatta de masa madre con queso Oaxaca, lechuga fresca y la proteína de tu elección — BLT, pollo o arrachera.",
     "ciabatta_hero": "Prueba: Ciabatta de Arrachera — $200",
-    "kitchen_intro": "Cada mañana nuestra cocina se enciende para servirte comida mexicana de alma, repostería artesanal y platillos creativos para el desayuno — todo hecho desde cero con ingredientes locales."
+    "kitchen_intro": "Cada mañana nuestra cocina se enciende para servirte comida mexicana de alma, repostería artesanal y platillos creativos para el desayuno — todo hecho desde cero con ingredientes locales.",
+    "rancheros_title": "Huevos Rancheros",
+    "rancheros_desc": "Tortilla, huevos fritos, salsa roja casera, frijoles, queso Oaxaca, cebolla y cilantro. Un clásico del desayuno mexicano como debe ser.",
+    "rancheros_hero": "Prueba: Huevos Rancheros — $135",
+    "red_enchiladas_title": "Enchiladas de Mole",
+    "red_enchiladas_desc": "Mole almendrado tradicional sobre tortillas hechas a mano rellenas de pollo, bañadas en crema, cebolla morada y cilantro. Profundo, rico, inolvidable.",
+    "red_enchiladas_hero": "Prueba: Enchiladas de Mole — $165"
   },
   "beans_section": {
     "heading": "Nuestros Granos",
@@ -194,16 +214,16 @@
   },
   "vibe_meter": {
     "wifi_label": "WiFi",
-    "wifi_speed": "300 Mbps",
+    "wifi_message": "WiFi rápido para trabajar",
     "golden_hour": "Hora Dorada",
-    "golden_hour_in": "Hora Dorada en {hours} hrs",
-    "golden_hour_now": "Hora Dorada — ahora",
-    "morning_quiet": "Mañana Tranquila — laptops y lattes",
-    "deep_focus": "Enfoque Profundo — cabezas abajo, espresso fluyendo",
-    "lunch_rush": "Hora del Almuerzo — hora de chilaquiles",
-    "afternoon_drift": "Tarde Tranquila — slow bar y conversación",
-    "pre_golden": "Pre-Hora Dorada — agarra un asiento junto a la ventana",
-    "golden": "Hora Dorada — la ventana mágica"
+    "golden_hour_in": "Hora dorada en {time}",
+    "golden_hour_now": "Hora dorada — ahora mismo",
+    "morning_quiet": "Vibes mañaneras — laptops y lattes",
+    "deep_focus": "Enfoque profundo — cabezas abajo, espresso fluyendo",
+    "lunch_rush": "Hora del almuerzo — hora de chilaquiles",
+    "afternoon_drift": "Tarde tranquila — slow bar y conversación",
+    "pre_golden": "Atardecer pronto — agarra un asiento junto a la ventana",
+    "golden": "Hora dorada — la ventana mágica"
   },
   "origin_map": {
     "chiapas": "Chiapas",

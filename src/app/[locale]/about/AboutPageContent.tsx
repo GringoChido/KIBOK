@@ -2,11 +2,13 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/layout/Container";
 import { MarqueeStrip } from "@/components/layout/MarqueeStrip";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 import { PullQuote } from "@/components/shared/PullQuote";
+import { SpotifyBlock } from "@/components/shared/SpotifyBlock";
 import { IMAGES } from "@/lib/images";
 
 export const AboutPageContent = () => {
@@ -23,7 +25,7 @@ export const AboutPageContent = () => {
             fill
             className="object-cover photo-warm opacity-30"
             sizes="100vw"
-            priority
+            preload
             aria-hidden
           />
           <div className="absolute inset-0 bg-gradient-to-b from-kibok-ink/60 via-kibok-ink/40 to-kibok-ink" />
@@ -37,56 +39,38 @@ export const AboutPageContent = () => {
             </span>
           </h1>
           <p className="mt-6 max-w-2xl font-body text-lg leading-relaxed text-kibok-cream/60">
-            {t("intro")}
+            {t("origin_story")}
           </p>
         </Container>
       </section>
 
       <MarqueeStrip />
 
-      {/* The Beans — photo left, text right with overlap */}
-      <section className="bg-kibok-off-white py-24">
+      {/* National Geographic Press Quote — hero social proof */}
+      <section className="bg-kibok-off-white py-16 md:py-20">
         <Container>
-          <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
-            <ScrollReveal direction="left">
-              <div className="relative">
-                <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
-                  <Image
-                    src={IMAGES.beansBag}
-                    alt="Hands holding open bag of roasted coffee beans"
-                    fill
-                    className="object-cover photo-warm"
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                  />
-                </div>
-              </div>
+          <div className="mx-auto max-w-3xl text-center">
+            <ScrollReveal>
+              <blockquote className="font-display text-2xl font-bold leading-snug text-kibok-ink md:text-3xl lg:text-4xl">
+                &ldquo;{t("press_quote")}&rdquo;
+              </blockquote>
+              <p className="mt-4 font-heading text-sm font-bold uppercase tracking-wider text-kibok-brown">
+                — {t("press_attribution")}
+              </p>
             </ScrollReveal>
-            <div>
-              <SectionHeading>{t("beans_heading")}</SectionHeading>
-              <ScrollReveal delay={0.2}>
-                <p className="mt-6 font-body text-lg leading-relaxed text-kibok-warm-gray">
-                  {t("beans_body_1")}
-                </p>
-                <p className="mt-4 font-body text-lg leading-relaxed text-kibok-warm-gray">
-                  {t("beans_body_2")}
-                </p>
-              </ScrollReveal>
-            </div>
           </div>
-
-          <PullQuote>{t("pull_quote")}</PullQuote>
         </Container>
       </section>
 
-      {/* The Space — SMA photos */}
+      {/* The Space — NatGeo description */}
       <section className="relative overflow-hidden bg-kibok-ink py-24">
         <Container>
           <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
             <ScrollReveal>
               <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
                 <Image
-                  src={IMAGES.smaStreetSunset}
-                  alt="San Miguel de Allende cobblestone street at sunset"
+                  src={IMAGES.extraChemex}
+                  alt="Chemex pour-over and ceramic cup on wooden slab at Ki'bok"
                   fill
                   className="object-cover photo-warm"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -96,10 +80,13 @@ export const AboutPageContent = () => {
             <div>
               <SectionHeading light>{t("space_heading")}</SectionHeading>
               <ScrollReveal delay={0.1}>
-                <p className="mt-6 font-body text-lg leading-relaxed text-kibok-cream/70">
-                  {t("space_body_1")}
+                <p className="mt-6 font-body text-lg leading-relaxed text-kibok-cream/70 italic">
+                  &ldquo;{t("natgeo_atmosphere")}&rdquo;
                 </p>
-                <p className="mt-4 font-body text-lg leading-relaxed text-kibok-cream/70">
+                <p className="mt-2 font-heading text-xs font-bold uppercase tracking-wider text-kibok-gold/60">
+                  — {t("press_attribution")}
+                </p>
+                <p className="mt-6 font-body text-lg leading-relaxed text-kibok-cream/70">
                   {t("space_body_2")}
                 </p>
               </ScrollReveal>
@@ -108,7 +95,55 @@ export const AboutPageContent = () => {
         </Container>
       </section>
 
-      {/* The Craft — photo grid */}
+      {/* The Hemingway — signature drink spotlight */}
+      <section className="bg-kibok-cream py-20 md:py-24">
+        <Container>
+          <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
+            <div>
+              <ScrollReveal>
+                <SectionHeading>{t("hemingway_heading")}</SectionHeading>
+                <p className="mt-6 font-body text-lg leading-relaxed text-kibok-warm-gray">
+                  {t("hemingway_body")}
+                </p>
+              </ScrollReveal>
+            </div>
+            <ScrollReveal direction="right">
+              <div className="relative aspect-square overflow-hidden rounded-sm">
+                <Image
+                  src={IMAGES.extraBlackCup}
+                  alt="Beautifully crafted latte art in black ceramic cup"
+                  fill
+                  className="object-cover photo-warm"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+            </ScrollReveal>
+          </div>
+        </Container>
+      </section>
+
+      {/* Beans teaser — short, links to beans page */}
+      <section className="bg-kibok-off-white py-16 md:py-20">
+        <Container>
+          <div className="mx-auto max-w-2xl text-center">
+            <ScrollReveal>
+              <SectionHeading>{t("beans_heading")}</SectionHeading>
+              <p className="mt-4 font-body text-lg text-kibok-warm-gray">
+                {t("beans_teaser")}
+              </p>
+              <Link
+                href="/beans"
+                className="mt-6 inline-flex items-center gap-2 font-heading text-sm font-bold uppercase tracking-wider text-kibok-brown transition-colors hover:text-kibok-terracotta"
+              >
+                {t("beans_cta")}
+                <span className="text-lg">&rarr;</span>
+              </Link>
+            </ScrollReveal>
+          </div>
+        </Container>
+      </section>
+
+      {/* The Craft — photo grid with real Ki'bok photos */}
       <section className="bg-kibok-cream py-24">
         <Container>
           <SectionHeading>{t("craft_heading")}</SectionHeading>
@@ -120,16 +155,16 @@ export const AboutPageContent = () => {
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                src: IMAGES.latteArtHeart,
-                alt: "Barista pouring latte art",
+                src: IMAGES.extraBaristaArt,
+                alt: "Ki'bok barista pouring latte art",
               },
               {
-                src: IMAGES.espressoShot,
-                alt: "Espresso shot with golden crema",
+                src: IMAGES.extraBarista,
+                alt: "Barista at the espresso machine",
               },
               {
-                src: IMAGES.coffeeTrio,
-                alt: "Three beautiful coffees on dark wood",
+                src: IMAGES.extraLatteArt,
+                alt: "Ki'bok latte art on wooden table",
               },
             ].map((photo, i) => (
               <ScrollReveal key={i} delay={i * 0.1}>
@@ -147,6 +182,15 @@ export const AboutPageContent = () => {
           </div>
         </Container>
       </section>
+
+      <section className="bg-kibok-cream py-8">
+        <Container>
+          <PullQuote>{t("pull_quote")}</PullQuote>
+        </Container>
+      </section>
+
+      {/* Spotify Block */}
+      <SpotifyBlock />
     </>
   );
 };

@@ -1,14 +1,16 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/layout/Container";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 import { SectionHeading } from "@/components/shared/SectionHeading";
+import { IMAGES } from "@/lib/images";
 
 const products = [
-  { key: "1", rotate: "rotate-1" },
-  { key: "2", rotate: "-rotate-1" },
+  { key: "1", rotate: "rotate-1", image: IMAGES.beanLabel2026, alt: "Ki'bok Signature Blend 2026 coffee bag label" },
+  { key: "2", rotate: "-rotate-1", image: IMAGES.beanLabelExplosion, alt: "Café Explosión coffee bag label" },
 ] as const;
 
 export const BeansSection = () => {
@@ -32,10 +34,14 @@ export const BeansSection = () => {
               <div
                 className={`group ${product.rotate} rounded-sm bg-white p-6 shadow-lg transition-transform duration-500 hover:rotate-0`}
               >
-                <div className="aspect-[3/4] flex items-center justify-center rounded-sm bg-kibok-charcoal/10">
-                  <span className="font-body text-sm text-kibok-ink/30">
-                    Product Image
-                  </span>
+                <div className="relative aspect-[3/4] overflow-hidden rounded-sm">
+                  <Image
+                    src={product.image}
+                    alt={product.alt}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 640px) 100vw, 50vw"
+                  />
                 </div>
 
                 <div className="mt-6">
