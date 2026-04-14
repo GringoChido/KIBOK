@@ -8,17 +8,17 @@
     "beans": "Beans"
   },
   "hero": {
-    "headline_1": "Where",
-    "headline_2": "Coffee Meets",
-    "headline_3": "Culture",
-    "subheadline": "Specialty coffee in the heart of San Miguel de Allende",
+    "headline_1": "Good",
+    "headline_2": "Aromas",
+    "headline_3": "Since 2017",
+    "subheadline": "Organic Mexican coffee, house-made food & the best rooftop in Centro",
     "cta_menu": "See the Menu",
-    "cta_visit": "Visit Us"
+    "cta_visit": "Find Us on Sollano"
   },
   "about_snippet": {
     "heading": "Come Have a Coffee With Us",
     "body": "We saved you a seat. Ki'bok is a warm corner in the heart of Centro where organic Mexican coffee meets homemade food, friendly faces, and the best WiFi in town. Whether you're here for an hour or the whole morning — you belong.",
-    "terroir": "Every cup tells a story of Mexican terroir — from the highlands of Chiapas to the mountains of Oaxaca.",
+    "terroir": "Our beans come from organic farms in Chiapas, Oaxaca, and Veracruz — roasted with care and pulled fresh every morning.",
     "link": "Our Story",
     "feature_menu": "Full Menu",
     "feature_breakfast": "Breakfast & Lunch All Day",
@@ -103,7 +103,7 @@
   "about_page": {
     "heading_1": "Our",
     "heading_2": "Story",
-    "intro": "Ki'bok Coffee was born from a deep love for Mexican coffee and the belief that every cup should be an experience — crafted with the freshest, highest-quality ingredients in a space that's welcoming, warm, and made for connection. We source our beans directly from organic producers across Mexico, roast them with care, and serve them with pride as a Mexican-born brand.",
+    "intro": "Ki'bok means \"good aromas\" in Maya — and if you've stood on the ground floor when the first shots are being pulled at 8am, you know exactly why we chose the name. We opened on Sollano in 2017 with a simple idea: serve the best organic Mexican coffee in the most welcoming space in San Miguel de Allende.",
     "beans_heading": "The Beans",
     "beans_body_1": "Every bean we serve is sourced directly from organic producers in Chiapas, Oaxaca, and Veracruz. We believe in transparent relationships with our farmers — fair prices, sustainable practices, and exceptional quality from seed to cup.",
     "beans_body_2": "Our roasting process honors each origin's unique character, bringing out the natural sweetness, complexity, and depth that make Mexican coffee extraordinary.",
@@ -134,7 +134,10 @@
       "parroquia": { "title": "La Parroquia", "desc": "The iconic pink parish church — unmissable and right around the corner." },
       "aurora": { "title": "Fábrica La Aurora", "desc": "Art galleries and workshops in a converted textile factory. 10 min walk." },
       "mercado": { "title": "Mercado de Artesanías", "desc": "Local crafts, textiles, and souvenirs. Perfect for a morning browse." }
-    }
+    },
+    "payment": "We accept cash (MXN) and all major credit cards.",
+    "parking": "Street parking is limited in Centro. Most visitors walk, take a taxi, or Uber. The nearest paid lot is on Calle Recreo.",
+    "accessibility": "Ground floor is step-free. Upper floors are accessed by stairs."
   },
   "contact_page": {
     "heading": "Say Hello",
@@ -162,7 +165,7 @@
     "built_by": "Built by"
   },
   "marquee": {
-    "items": ["KI'BOK COFFEE SMA", "ORGANIC MEXICAN COFFEE", "HOMEMADE PASTRIES", "SAN MIGUEL DE ALLENDE", "LOCALLY SOURCED", "CRAFTED WITH CARE"]
+    "items": ["KI'BOK COFFEE SMA", "ORGANIC MEXICAN COFFEE", "HOMEMADE PASTRIES", "SAN MIGUEL DE ALLENDE", "LOCALLY SOURCED", "GOOD AROMAS SINCE 2017"]
   },
   "food_expanded": {
     "avocado_title": "Avocado Toast & Bagels",
@@ -310,5 +313,15 @@
     "extra_bacon": "Bacon",
     "extra_egg": "Egg",
     "extra_quinoa": "Quinoa"
+  },
+  "press": {
+    "quote": "A tiny café that serves some of the best coffee in the world",
+    "attribution": "National Geographic",
+    "featured_in": "Featured in National Geographic · Travel + Leisure · Washington Post"
+  },
+  "hemingway_spotlight": {
+    "label": "Our Signature Since Day One",
+    "heading": "The Hemingway",
+    "body": "A Cuban cortado — double espresso, brown sugar infusion, a touch of foam, powdered cinnamon. Named after the man who understood that the best things in life are simple, strong, and unforgettable."
   }
 }

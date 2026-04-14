@@ -9,12 +9,12 @@ import { Container } from "@/components/layout/Container";
 import { ScrollReveal } from "@/components/shared/ScrollReveal";
 
 const gridPhotos = [
-  { src: IMAGES.espressoShot, alt: "Espresso shot", tall: true },
-  { src: IMAGES.chilaquiles, alt: "Chilaquiles", tall: false },
-  { src: IMAGES.smaStreetSunset, alt: "SMA street at sunset", tall: false },
-  { src: IMAGES.coffeeTrio, alt: "Three coffees", tall: false },
-  { src: IMAGES.baristaHandoff, alt: "Barista serving", tall: true },
-  { src: IMAGES.latteArtLeaf, alt: "Latte art", tall: false },
+  { src: IMAGES.espressoShot, alt: "Fresh espresso shot pulling at Ki'bok Coffee SMA", tall: true },
+  { src: IMAGES.chilaquiles, alt: "Chilaquiles verdes with cheese and onion — Mexican breakfast at Ki'bok", tall: false },
+  { src: IMAGES.smaStreetSunset, alt: "Colorful street scene at sunset in Centro, San Miguel de Allende", tall: false },
+  { src: IMAGES.coffeeTrio, alt: "Three craft coffees with latte art on dark wood bar at Ki'bok", tall: false },
+  { src: IMAGES.baristaHandoff, alt: "Barista handing over a fresh coffee at the counter", tall: true },
+  { src: IMAGES.latteArtLeaf, alt: "Ki'bok latte art leaf pattern on espresso", tall: false },
 ];
 
 export const InstagramGrid = () => {

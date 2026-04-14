@@ -1,12 +1,51 @@
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
 import { BlogPageContent } from "./BlogPageContent";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("blog_page");
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  const meta = {
+    en: {
+      title:
+        "Blog — Ki'bok Coffee SMA | Coffee Stories from San Miguel de Allende",
+      description:
+        "Stories from the roastery, brewing guides, and dispatches from San Miguel de Allende.",
+    },
+    es: {
+      title:
+        "Blog — Ki'bok Coffee SMA | Historias de Café desde San Miguel de Allende",
+      description:
+        "Historias de la tostaduría, guías de preparación y despachos desde San Miguel de Allende.",
+    },
+    ja: {
+      title:
+        "ブログ — Ki'bok Coffee SMA | サン・ミゲル・デ・アジェンデからのコーヒーストーリー",
+      description:
+        "焙煎所からの物語、淹れ方ガイド、サン・ミゲル・デ・アジェンデからの便り。",
+    },
+  };
+
+  const t = meta[locale as keyof typeof meta] || meta.en;
+
   return {
-    title: `${t("heading")} — Ki'bok Coffee SMA`,
-    description: t("subheading"),
+    title: t.title,
+    description: t.description,
+    openGraph: {
+      title: t.title,
+      description: t.description,
+      url: `https://kibok.netlify.app/${locale}/blog`,
+      siteName: "Ki'bok Coffee SMA",
+      locale: locale === "es" ? "es_MX" : locale === "ja" ? "ja_JP" : "en_US",
+      type: "website",
+    },
+    alternates: {
+      canonical: `https://kibok.netlify.app/${locale}/blog`,
+      languages: { en: "/en/blog", es: "/es/blog", ja: "/ja/blog" },
+    },
   };
 }
 

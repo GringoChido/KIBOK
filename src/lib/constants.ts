@@ -34,7 +34,6 @@ export const NAV_LINKS = [
   { key: "beans", href: "/beans" },
   { key: "about", href: "/about" },
   { key: "visit", href: "/visit" },
-  { key: "blog", href: "/blog" },
 ] as const;
 
 export const SPOTIFY_PLAYLIST_ID = "37i9dQZF1DXdSjVZQzv2tl";

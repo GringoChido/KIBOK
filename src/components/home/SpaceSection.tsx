@@ -9,10 +9,10 @@ import { IMAGES } from "@/lib/images";
 import { VibeMeter } from "@/components/shared/VibeMeter";
 
 const spacePhotos = [
-  { src: IMAGES.coffeeTrio, alt: "Three coffees on dark wood bar" },
-  { src: IMAGES.craftCopperPourover, alt: "Pour-over brewing with copper gooseneck kettle" },
-  { src: IMAGES.extraChemex, alt: "Chemex pour-over on wooden table at Ki'bok" },
-  { src: IMAGES.extraLatteArt, alt: "Ki'bok latte art on branded table" },
+  { src: IMAGES.coffeeTrio, alt: "Three craft coffees with latte art on dark wood bar at Ki'bok" },
+  { src: IMAGES.craftCopperPourover, alt: "Pour-over coffee brewing with copper gooseneck kettle" },
+  { src: IMAGES.extraChemex, alt: "Chemex pour-over coffee on wooden table at Ki'bok SMA" },
+  { src: IMAGES.extraLatteArt, alt: "Ki'bok latte art heart pattern on branded espresso cup" },
 ];
 
 export const SpaceSection = () => {

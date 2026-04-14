@@ -54,6 +54,22 @@ export const VisitPageContent = () => {
                 <div className="mt-6">
                   <SocialIcons variant="dark" size={20} />
                 </div>
+                {/* Practical info */}
+                <div className="mt-8 space-y-3 border-t border-kibok-warm-gray/20 pt-6">
+                  <div className="flex items-start gap-3">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className="mt-0.5 h-4 w-4 shrink-0 text-kibok-brown"><rect x="1" y="4" width="22" height="16" rx="2" /><line x1="1" y1="10" x2="23" y2="10" /></svg>
+                    <p className="font-body text-sm text-kibok-warm-gray">{t("visit_page.payment")}</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className="mt-0.5 h-4 w-4 shrink-0 text-kibok-brown"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>
+                    <p className="font-body text-sm text-kibok-warm-gray">{t("visit_page.parking")}</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" className="mt-0.5 h-4 w-4 shrink-0 text-kibok-brown"><circle cx="12" cy="12" r="10" /><path d="M12 8v4l3 3" /></svg>
+                    <p className="font-body text-sm text-kibok-warm-gray">{t("visit_page.accessibility")}</p>
+                  </div>
+                </div>
+
                 <div className="mt-8">
                   <Button href={LOCATION.googleMapsUrl}>{t("location.directions")}</Button>
                 </div>

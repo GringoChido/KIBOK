@@ -8,17 +8,17 @@
     "beans": "Granos"
   },
   "hero": {
-    "headline_1": "Donde",
-    "headline_2": "el Café Encuentra",
-    "headline_3": "la Cultura",
-    "subheadline": "Café de especialidad en el corazón de San Miguel de Allende",
+    "headline_1": "Buenos",
+    "headline_2": "Aromas",
+    "headline_3": "Desde 2017",
+    "subheadline": "Café mexicano orgánico, comida casera y la mejor terraza en el Centro",
     "cta_menu": "Ver el Menú",
-    "cta_visit": "Visítanos"
+    "cta_visit": "Encuéntranos en Sollano"
   },
   "about_snippet": {
     "heading": "Ven a Tomar un Café",
     "body": "Te guardamos un lugar. Ki'bok es un rincón cálido en el corazón del Centro donde el café orgánico mexicano se encuentra con la comida casera, caras amigables y el mejor WiFi de la ciudad. Ya sea que vengas por una hora o toda la mañana — este es tu lugar.",
-    "terroir": "Cada taza cuenta la historia del terroir mexicano — desde las tierras altas de Chiapas hasta las montañas de Oaxaca.",
+    "terroir": "Nuestros granos vienen de fincas orgánicas en Chiapas, Oaxaca y Veracruz — tostados con cuidado y preparados frescos cada mañana.",
     "link": "Nuestra Historia",
     "feature_menu": "Menú Completo",
     "feature_breakfast": "Desayuno y Comida Todo el Día",
@@ -103,7 +103,7 @@
   "about_page": {
     "heading_1": "Nuestra",
     "heading_2": "Historia",
-    "intro": "Ki'bok Coffee nació de un profundo amor por el café mexicano y la creencia de que cada taza debe ser una experiencia — elaborada con los ingredientes más frescos y de la más alta calidad, en un espacio acogedor, cálido y hecho para la conexión. Obtenemos nuestros granos directamente de productores orgánicos en todo México, los tostamos con cuidado y los servimos con orgullo como marca nacida en México.",
+    "intro": "Ki'bok significa \"buenos aromas\" en maya — y si alguna vez has estado en la planta baja cuando se sirven los primeros espressos a las 8am, sabes exactamente por qué elegimos ese nombre. Abrimos en Sollano en 2017 con una idea simple: servir el mejor café orgánico mexicano en el espacio más acogedor de San Miguel de Allende.",
     "beans_heading": "Los Granos",
     "beans_body_1": "Cada grano que servimos proviene directamente de productores orgánicos en Chiapas, Oaxaca y Veracruz. Creemos en relaciones transparentes con nuestros agricultores — precios justos, prácticas sostenibles y calidad excepcional de la semilla a la taza.",
     "beans_body_2": "Nuestro proceso de tueste honra el carácter único de cada origen, resaltando la dulzura natural, la complejidad y la profundidad que hacen extraordinario al café mexicano.",
@@ -134,7 +134,10 @@
       "parroquia": { "title": "La Parroquia", "desc": "La icónica iglesia rosa — imposible de perder, justo a la vuelta." },
       "aurora": { "title": "Fábrica La Aurora", "desc": "Galerías de arte y talleres en una fábrica textil convertida. 10 min caminando." },
       "mercado": { "title": "Mercado de Artesanías", "desc": "Artesanías locales, textiles y souvenirs. Perfecto para una mañana de exploración." }
-    }
+    },
+    "payment": "Aceptamos efectivo (MXN) y todas las tarjetas de crédito principales.",
+    "parking": "El estacionamiento en el Centro es limitado. La mayoría de visitantes caminan, toman taxi o Uber. El estacionamiento de pago más cercano está en Calle Recreo.",
+    "accessibility": "La planta baja no tiene escalones. Los pisos superiores se acceden por escaleras."
   },
   "contact_page": {
     "heading": "Escríbenos",
@@ -162,7 +165,7 @@
     "built_by": "Hecho por"
   },
   "marquee": {
-    "items": ["KI'BOK COFFEE SMA", "CAFÉ ORGÁNICO MEXICANO", "REPOSTERÍA ARTESANAL", "SAN MIGUEL DE ALLENDE", "INGREDIENTES LOCALES", "HECHO CON CARIÑO"]
+    "items": ["KI'BOK COFFEE SMA", "CAFÉ MEXICANO ORGÁNICO", "REPOSTERÍA CASERA", "SAN MIGUEL DE ALLENDE", "INGREDIENTES LOCALES", "BUENOS AROMAS DESDE 2017"]
   },
   "food_expanded": {
     "avocado_title": "Tostada de Aguacate & Bagels",
@@ -310,5 +313,15 @@
     "extra_bacon": "Tocino",
     "extra_egg": "Huevo",
     "extra_quinoa": "Quinoa"
+  },
+  "press": {
+    "quote": "Un pequeño café que sirve uno de los mejores cafés del mundo",
+    "attribution": "National Geographic",
+    "featured_in": "Destacado en National Geographic · Travel + Leisure · Washington Post"
+  },
+  "hemingway_spotlight": {
+    "label": "Nuestra Firma Desde el Primer Día",
+    "heading": "El Hemingway",
+    "body": "Un cortado cubano — doble espresso, infusión de azúcar morena, un toque de espuma y canela en polvo. Nombrado en honor al hombre que entendió que las mejores cosas de la vida son simples, fuertes e inolvidables."
   }
 }
