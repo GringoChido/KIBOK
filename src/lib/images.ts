@@ -77,6 +77,7 @@ export const IMAGES = {
   beansCupOverhead: `${A}/NEW/beans-cup-overhead.webp`,
   beansCuppedHands: `${A}/NEW/beans-cupped-hands.webp`,
   beansMacroCloseup: `${A}/NEW/beans-macro-closeup.webp`,
+  smaJardinAerial: `${A}/NEW/sma-jardin-aerial.webp`,
 
   // Brand reference (not used on site, mood only)
   // mesacaFont: `${A}/2b16b34eab7fcb9e5bce4069cb159d49.jpg`,

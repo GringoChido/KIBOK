@@ -82,8 +82,8 @@ export const LocationBanner = () => {
             <ScrollReveal delay={0.2}>
               <div className="relative aspect-[4/5] overflow-hidden rounded-sm md:aspect-square">
                 <Image
-                  src={IMAGES.parroquiaEvening}
-                  alt="La Parroquia at golden hour with people on cobblestones"
+                  src={IMAGES.smaJardinAerial}
+                  alt="Aerial view of Jardín Principal and La Parroquia at sunset in San Miguel de Allende"
                   fill
                   className="object-cover photo-warm"
                   sizes="(max-width: 768px) 100vw, 50vw"
