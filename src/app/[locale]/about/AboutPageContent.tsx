@@ -20,7 +20,7 @@ export const AboutPageContent = () => {
       <section className="grain-overlay relative overflow-hidden bg-kibok-ink pb-20 pt-36">
         <div className="absolute inset-0 z-0">
           <Image
-            src={IMAGES.shootFounderPortrait}
+            src={IMAGES.shootOurStoryHero}
             alt=""
             fill
             className="object-cover photo-warm opacity-30"
@@ -168,16 +168,16 @@ export const AboutPageContent = () => {
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                src: IMAGES.shootCraftTamping,
-                alt: "Ki'bok barista tamping espresso — dramatic black and white close-up",
+                src: IMAGES.shootSpaceGallery1,
+                alt: "Ki'bok interior — warm overhead table scene with lattes and food",
               },
               {
-                src: IMAGES.craftLattePour,
-                alt: "Barista pouring steamed milk into espresso — latte art in progress",
+                src: IMAGES.shootSpaceGallery2,
+                alt: "Ki'bok barista at work behind the espresso bar",
               },
               {
-                src: IMAGES.craftCopperPourover,
-                alt: "Copper gooseneck kettle brewing V60 pour-over coffee",
+                src: IMAGES.shootSpaceGallery3,
+                alt: "Ki'bok coffee bar detail — moody editorial interior",
               },
             ].map((photo, i) => (
               <ScrollReveal key={i} delay={i * 0.1}>

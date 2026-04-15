@@ -78,7 +78,7 @@ export const VisitPageContent = () => {
 
             <ScrollReveal direction="right">
               <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
-                <Image src={IMAGES.storefront} alt="Ki'bok Coffee SMA storefront" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src={IMAGES.shootFindUs} alt="Ki'bok Coffee SMA storefront on Sollano" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               {/* Map below storefront */}
               <div className="mt-3 aspect-video overflow-hidden rounded-sm">

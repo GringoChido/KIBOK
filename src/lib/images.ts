@@ -92,6 +92,11 @@ export const IMAGES = {
   shootBundtCake: `${A}/SHOOT/bundt-cake.webp`,
   shootPourOver: `${A}/SHOOT/pour-over.webp`,
   shootCoffeePairing: `${A}/SHOOT/coffee-pairing.webp`,
+  shootFindUs: `${A}/SHOOT/find-us-storefront.webp`,
+  shootSpaceGallery1: `${A}/SHOOT/space-gallery-1.webp`,
+  shootSpaceGallery2: `${A}/SHOOT/space-gallery-2.webp`,
+  shootSpaceGallery3: `${A}/SHOOT/space-gallery-3.webp`,
+  shootOurStoryHero: `${A}/SHOOT/our-story-hero.webp`,
 
   // Brand reference (not used on site, mood only)
   // mesacaFont: `${A}/2b16b34eab7fcb9e5bce4069cb159d49.jpg`,
