@@ -69,8 +69,8 @@ export const AboutPageContent = () => {
             <ScrollReveal>
               <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
                 <Image
-                  src={IMAGES.shootSpaceLifestyle}
-                  alt="Guest enjoying coffee and food at Ki'bok — warm candid lifestyle shot"
+                  src={IMAGES.shootSpaceLifestyle2}
+                  alt="Ki'bok interior atmosphere — warm candid lifestyle shot"
                   fill
                   className="object-cover photo-warm"
                   sizes="(max-width: 768px) 100vw, 50vw"

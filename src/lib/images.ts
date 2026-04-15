@@ -97,6 +97,8 @@ export const IMAGES = {
   shootSpaceGallery2: `${A}/SHOOT/space-gallery-2.webp`,
   shootSpaceGallery3: `${A}/SHOOT/space-gallery-3.webp`,
   shootOurStoryHero: `${A}/SHOOT/our-story-hero.webp`,
+  shootCoffeeWithUs: `${A}/SHOOT/coffee-with-us.webp`,
+  shootSpaceLifestyle2: `${A}/SHOOT/space-lifestyle-2.webp`,
 
   // Brand reference (not used on site, mood only)
   // mesacaFont: `${A}/2b16b34eab7fcb9e5bce4069cb159d49.jpg`,

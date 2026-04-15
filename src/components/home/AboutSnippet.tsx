@@ -60,28 +60,14 @@ export const AboutSnippet = () => {
         <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
           {/* Collage: main photo + overlapping small photo */}
           <ScrollReveal direction="left">
-            <div className="relative">
-              <div className="relative aspect-[4/5] overflow-hidden rounded-sm md:-ml-6 lg:-ml-8">
-                <Image
-                  src={IMAGES.shootLatteHands}
-                  alt="Close-up of hands holding latte with gorgeous latte art at Ki'bok"
-                  fill
-                  className="object-cover photo-warm"
-                  sizes="(max-width: 768px) 100vw, 55vw"
-                />
-              </div>
-              <div className="absolute -right-2 -top-4 z-10 hidden md:block">
-                <div className="relative h-32 w-32 overflow-hidden rounded-sm shadow-xl ring-4 ring-kibok-cream">
-                  <Image
-                    src={IMAGES.shootTableScene}
-                    alt="Overhead table scene with two lattes, food plate, and hands at Ki'bok"
-                    fill
-                    className="object-cover photo-warm"
-                    sizes="128px"
-                    aria-hidden
-                  />
-                </div>
-              </div>
+            <div className="relative aspect-[4/5] overflow-hidden rounded-sm md:-ml-6 lg:-ml-8">
+              <Image
+                src={IMAGES.shootCoffeeWithUs}
+                alt="Warm coffee moment at Ki'bok — hands, latte art, and morning light"
+                fill
+                className="object-cover photo-warm"
+                sizes="(max-width: 768px) 100vw, 55vw"
+              />
             </div>
           </ScrollReveal>
 
