@@ -1,12 +1,25 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { Noto_Sans_JP } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { GrainOverlay } from "@/components/shared/GrainOverlay";
 import { MobileCTA } from "@/components/layout/MobileCTA";
 import { SpotifyWidget } from "@/components/layout/SpotifyWidget";
+
+const notoSansJP = Noto_Sans_JP({
+  variable: "--font-ja",
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  preload: false,
+  display: "swap",
+});
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export default async function LocaleLayout({
   children,
@@ -28,8 +41,8 @@ export default async function LocaleLayout({
     "@type": "CafeOrCoffeeShop",
     name: "Ki'bok Coffee SMA",
     image:
-      "https://kibok.netlify.app/ASSETS/86364c926e7f98c6039a30012bff5781.webp",
-    url: "https://kibok.netlify.app",
+      "https://kibokcoffee-sma.com/ASSETS/86364c926e7f98c6039a30012bff5781.webp",
+    url: "https://kibokcoffee-sma.com",
     telephone: "+524151215267",
     address: {
       "@type": "PostalAddress",
@@ -75,16 +88,18 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <GrainOverlay />
-      <Navbar />
-      <main className="flex-1 pb-16 md:pb-0">{children}</main>
-      <Footer />
-      <SpotifyWidget />
-      <MobileCTA />
+      <div className={locale === "ja" ? notoSansJP.variable : undefined}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <GrainOverlay />
+        <Navbar />
+        <main className="flex-1 pb-16 md:pb-0">{children}</main>
+        <Footer />
+        <SpotifyWidget />
+        <MobileCTA />
+      </div>
     </NextIntlClientProvider>
   );
 }

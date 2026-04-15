@@ -90,7 +90,7 @@ const foodCards: FoodCard[] = [
     titleKey: "food.pastry_title",
     descKey: "food.pastry_desc",
     heroKey: "food.pastry_hero",
-    image: IMAGES.pastries,
+    image: IMAGES.shootBundtCake,
     large: true,
     colSpan: "col-span-12 md:col-span-8",
     aspect: "aspect-[16/9]",

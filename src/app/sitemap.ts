@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 const locales = ["en", "es", "ja"];
-const baseUrl = "https://kibok.netlify.app";
+const baseUrl = "https://kibokcoffee-sma.com";
 
 const pages = [
   { path: "", priority: 1.0, changeFrequency: "weekly" as const },

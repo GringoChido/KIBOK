@@ -21,7 +21,7 @@ export const VisitPageContent = () => {
       {/* Hero */}
       <section className="grain-overlay relative overflow-hidden bg-kibok-charcoal pb-20 pt-36">
         <div className="absolute inset-0 z-0">
-          <Image src={IMAGES.smaStreetSunset} alt="" fill className="object-cover photo-warm opacity-40" sizes="100vw" priority aria-hidden />
+          <Image src={IMAGES.shootStorefront} alt="" fill className="object-cover photo-warm opacity-40" sizes="100vw" priority aria-hidden />
           <div className="absolute inset-0 bg-gradient-to-b from-kibok-charcoal/50 via-kibok-charcoal/30 to-kibok-charcoal" />
         </div>
         <Container className="relative z-10">

@@ -79,6 +79,20 @@ export const IMAGES = {
   beansMacroCloseup: `${A}/NEW/beans-macro-closeup.webp`,
   smaJardinAerial: `${A}/NEW/sma-jardin-aerial.webp`,
 
+  // === SHOOT — Photo shoot originals (Canon EOS 7D, Apr 2026) ===
+  shootStorefront: `${A}/SHOOT/storefront.webp`,
+  shootPastrySpread: `${A}/SHOOT/pastry-spread.webp`,
+  shootFounderPortrait: `${A}/SHOOT/founder-portrait.webp`,
+  shootLatteHands: `${A}/SHOOT/latte-hands.webp`,
+  shootTableScene: `${A}/SHOOT/table-scene.webp`,
+  shootEspressoMachine: `${A}/SHOOT/espresso-machine.webp`,
+  shootCraftTamping: `${A}/SHOOT/craft-tamping.webp`,
+  shootSpaceLifestyle: `${A}/SHOOT/space-lifestyle.webp`,
+  shootBaristaEspresso: `${A}/SHOOT/barista-espresso.webp`,
+  shootBundtCake: `${A}/SHOOT/bundt-cake.webp`,
+  shootPourOver: `${A}/SHOOT/pour-over.webp`,
+  shootCoffeePairing: `${A}/SHOOT/coffee-pairing.webp`,
+
   // Brand reference (not used on site, mood only)
   // mesacaFont: `${A}/2b16b34eab7fcb9e5bce4069cb159d49.jpg`,
   // orfeeBoard: `${A}/1d066427458ea5c8b04465b757be12b8.jpg`,

@@ -14,8 +14,7 @@ export const LOCATION = {
     "Diez de Sollano y Dávalos #25, Cuadrante 1, Centro, 37700 San Miguel de Allende, Gto.",
   rating: 4.6,
   reviewCount: 728,
-  googleMapsUrl:
-    "https://www.google.com/maps/place/Ki'bok+Coffee+SMA/@20.9133,-100.7441,17z",
+  googleMapsUrl: "https://maps.app.goo.gl/iteJLPtgU6poAqnV9",
   coordinates: { lat: 20.9133, lng: -100.7441 },
   hours: "Open daily · Closes 7 PM",
 } as const;

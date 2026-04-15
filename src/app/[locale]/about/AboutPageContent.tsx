@@ -20,12 +20,12 @@ export const AboutPageContent = () => {
       <section className="grain-overlay relative overflow-hidden bg-kibok-ink pb-20 pt-36">
         <div className="absolute inset-0 z-0">
           <Image
-            src={IMAGES.espressoSteam}
+            src={IMAGES.shootFounderPortrait}
             alt=""
             fill
             className="object-cover photo-warm opacity-30"
             sizes="100vw"
-            preload
+            priority
             aria-hidden
           />
           <div className="absolute inset-0 bg-gradient-to-b from-kibok-ink/60 via-kibok-ink/40 to-kibok-ink" />
@@ -69,8 +69,8 @@ export const AboutPageContent = () => {
             <ScrollReveal>
               <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
                 <Image
-                  src={IMAGES.craftCopperPourover}
-                  alt="Pour-over coffee being brewed with a copper gooseneck kettle"
+                  src={IMAGES.shootSpaceLifestyle}
+                  alt="Guest enjoying coffee and food at Ki'bok — warm candid lifestyle shot"
                   fill
                   className="object-cover photo-warm"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -110,8 +110,8 @@ export const AboutPageContent = () => {
             <ScrollReveal direction="right">
               <div className="relative aspect-square overflow-hidden rounded-sm">
                 <Image
-                  src={IMAGES.extraBlackCup}
-                  alt="Beautifully crafted latte art in black ceramic cup"
+                  src={IMAGES.shootCoffeePairing}
+                  alt="Overhead coffee and pastry pairing — latte art with fresh pastries at Ki'bok"
                   fill
                   className="object-cover photo-warm"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -168,8 +168,8 @@ export const AboutPageContent = () => {
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                src: IMAGES.beansCuppedHands,
-                alt: "Selecting the perfect roasted beans by hand",
+                src: IMAGES.shootCraftTamping,
+                alt: "Ki'bok barista tamping espresso — dramatic black and white close-up",
               },
               {
                 src: IMAGES.craftLattePour,

@@ -316,7 +316,7 @@ export const MenuPageContent = () => {
       <section className="grain-overlay relative overflow-hidden bg-kibok-ink pb-20 pt-36">
         <div className="absolute inset-0 z-0">
           <Image
-            src={IMAGES.coffeeTrio}
+            src={IMAGES.shootPastrySpread}
             alt=""
             fill
             className="object-cover photo-warm opacity-40"

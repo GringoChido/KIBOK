@@ -37,13 +37,27 @@ export async function generateMetadata({
     openGraph: {
       title: t.title,
       description: t.description,
-      url: `https://kibok.netlify.app/${locale}/blog`,
+      url: `https://kibokcoffee-sma.com/${locale}/blog`,
       siteName: "Ki'bok Coffee SMA",
       locale: locale === "es" ? "es_MX" : locale === "ja" ? "ja_JP" : "en_US",
       type: "website",
+      images: [
+        {
+          url: "/ASSETS/86364c926e7f98c6039a30012bff5781.webp",
+          width: 1200,
+          height: 630,
+          alt: "Ki'bok Coffee SMA — Blog",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t.title,
+      description: t.description,
+      images: ["/ASSETS/86364c926e7f98c6039a30012bff5781.webp"],
     },
     alternates: {
-      canonical: `https://kibok.netlify.app/${locale}/blog`,
+      canonical: `https://kibokcoffee-sma.com/${locale}/blog`,
       languages: { en: "/en/blog", es: "/es/blog", ja: "/ja/blog" },
     },
   };

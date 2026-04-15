@@ -45,14 +45,13 @@ export const Hero = () => {
         style={{ y: textY, opacity }}
       >
         {/* Staggered headline */}
-        {[t("headline_1"), t("headline_2"), t("headline_3")].map((line, i) => (
-          <motion.div
-            key={i}
-            initial={{ opacity: 0, y: 40, clipPath: "inset(100% 0 0 0)" }}
-            animate={{ opacity: 1, y: 0, clipPath: "inset(0 0 0 0)" }}
-            transition={{ duration: 0.8, delay: 0.3 + i * 0.15, ease: "easeOut" }}
-          >
-            <span
+        <h1>
+          {[t("headline_1"), t("headline_2"), t("headline_3")].map((line, i) => (
+            <motion.span
+              key={i}
+              initial={{ opacity: 0, y: 40, clipPath: "inset(100% 0 0 0)" }}
+              animate={{ opacity: 1, y: 0, clipPath: "inset(0 0 0 0)" }}
+              transition={{ duration: 0.8, delay: 0.3 + i * 0.15, ease: "easeOut" }}
               className={`block font-display font-bold leading-[0.85] tracking-tight drop-shadow-2xl ${
                 i === 2
                   ? "text-[clamp(3rem,11vw,8rem)] text-kibok-gold"
@@ -60,9 +59,9 @@ export const Hero = () => {
               }`}
             >
               {line}
-            </span>
-          </motion.div>
-        ))}
+            </motion.span>
+          ))}
+        </h1>
 
         <motion.div
           initial={{ opacity: 0, scaleX: 0 }}

@@ -63,8 +63,8 @@ export const AboutSnippet = () => {
             <div className="relative">
               <div className="relative aspect-[4/5] overflow-hidden rounded-sm md:-ml-6 lg:-ml-8">
                 <Image
-                  src={IMAGES.latteArtLeaf}
-                  alt="Ki'bok latte art leaf pattern in ribbed glass cup"
+                  src={IMAGES.shootLatteHands}
+                  alt="Close-up of hands holding latte with gorgeous latte art at Ki'bok"
                   fill
                   className="object-cover photo-warm"
                   sizes="(max-width: 768px) 100vw, 55vw"
@@ -73,8 +73,8 @@ export const AboutSnippet = () => {
               <div className="absolute -right-2 -top-4 z-10 hidden md:block">
                 <div className="relative h-32 w-32 overflow-hidden rounded-sm shadow-xl ring-4 ring-kibok-cream">
                   <Image
-                    src={IMAGES.craftLattePour}
-                    alt="Ki'bok barista pouring latte art"
+                    src={IMAGES.shootTableScene}
+                    alt="Overhead table scene with two lattes, food plate, and hands at Ki'bok"
                     fill
                     className="object-cover photo-warm"
                     sizes="128px"

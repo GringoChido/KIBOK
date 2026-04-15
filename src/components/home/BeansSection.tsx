@@ -21,7 +21,7 @@ export const BeansSection = () => {
       <div className="paper-overlay absolute inset-0" />
       <div className="absolute inset-0 z-[1] opacity-[0.04]">
         <Image
-          src={IMAGES.beansCupOverhead}
+          src={IMAGES.shootPourOver}
           alt=""
           fill
           className="object-cover"

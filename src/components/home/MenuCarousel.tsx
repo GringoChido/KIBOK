@@ -10,7 +10,7 @@ import { IMAGES } from "@/lib/images";
 import { MENU_PRICES } from "@/lib/constants";
 
 const highlights = [
-  { key: "espresso", image: IMAGES.espressoShot, price: MENU_PRICES.espresso },
+  { key: "espresso", image: IMAGES.shootEspressoMachine, price: MENU_PRICES.espresso },
   { key: "cortado", image: IMAGES.latteArtLeaf, price: MENU_PRICES.cortado },
   { key: "cococcino", image: IMAGES.icedCoffeePour, price: MENU_PRICES.cococcino },
   { key: "chilaquiles_verdes", image: IMAGES.chilaquiles, price: MENU_PRICES.chilaquiles_verdes },

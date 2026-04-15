@@ -20,11 +20,11 @@ export const BeansPageContent = () => {
       <section className="relative flex min-h-[60vh] items-center overflow-hidden bg-kibok-ink">
         <div className="absolute inset-0 z-0">
           <Image
-            src={IMAGES.beansBag}
+            src={IMAGES.shootBaristaEspresso}
             alt=""
             fill
             className="object-cover photo-warm"
-            preload
+            priority
             sizes="100vw"
             quality={85}
           />
