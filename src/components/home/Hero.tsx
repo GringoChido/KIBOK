@@ -44,40 +44,38 @@ export const Hero = () => {
         className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center"
         style={{ y: textY, opacity }}
       >
-        {/* Staggered headline */}
-        <h1>
-          {[t("headline_1"), t("headline_2"), t("headline_3")].map((line, i) => (
-            <motion.span
-              key={i}
-              initial={{ opacity: 0, y: 40, clipPath: "inset(100% 0 0 0)" }}
-              animate={{ opacity: 1, y: 0, clipPath: "inset(0 0 0 0)" }}
-              transition={{ duration: 0.8, delay: 0.3 + i * 0.15, ease: "easeOut" }}
-              className={`block font-display font-bold leading-[0.85] tracking-tight drop-shadow-2xl ${
-                i === 2
-                  ? "text-[clamp(3rem,11vw,8rem)] text-kibok-gold"
-                  : "text-[clamp(2.5rem,9vw,6rem)] text-kibok-cream"
-              }`}
-            >
-              {line}
-            </motion.span>
-          ))}
-        </h1>
+        {/* Large transparent logo watermark */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
+          className="relative w-[clamp(280px,70vw,700px)]"
+        >
+          <Image
+            src={IMAGES.logo}
+            alt="Ki'bok Coffee SMA"
+            width={1200}
+            height={200}
+            className="w-full opacity-50 brightness-200 invert"
+            priority
+          />
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, scaleX: 0 }}
           animate={{ opacity: 1, scaleX: 1 }}
-          transition={{ duration: 0.6, delay: 1.0 }}
+          transition={{ duration: 0.6, delay: 0.8 }}
           className="mt-6 h-px w-24 bg-kibok-gold/60"
         />
 
-        <motion.p
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1.1 }}
-          className="mt-4 max-w-md font-body text-sm leading-relaxed text-kibok-cream/60 md:text-base"
+          transition={{ duration: 0.8, delay: 1.0 }}
+          className="mt-6 max-w-2xl font-body text-lg leading-relaxed text-kibok-cream/80 md:text-xl lg:text-2xl"
         >
           {t("subheadline")}
-        </motion.p>
+        </motion.h1>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
