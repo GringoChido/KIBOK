@@ -36,7 +36,7 @@ export async function generateMetadata({
     openGraph: {
       title: t.title,
       description: t.description,
-      url: `https://kibokcoffee-sma.com/${locale}/beans`,
+      url: `https://kibokcoffeesma.com/${locale}/beans`,
       siteName: "Ki'bok Coffee SMA",
       locale: locale === "es" ? "es_MX" : locale === "ja" ? "ja_JP" : "en_US",
       type: "website",
@@ -56,7 +56,7 @@ export async function generateMetadata({
       images: ["/ASSETS/86364c926e7f98c6039a30012bff5781.webp"],
     },
     alternates: {
-      canonical: `https://kibokcoffee-sma.com/${locale}/beans`,
+      canonical: `https://kibokcoffeesma.com/${locale}/beans`,
       languages: { en: "/en/beans", es: "/es/beans", ja: "/ja/beans" },
     },
   };

@@ -41,8 +41,8 @@ export default async function LocaleLayout({
     "@type": "CafeOrCoffeeShop",
     name: "Ki'bok Coffee SMA",
     image:
-      "https://kibokcoffee-sma.com/ASSETS/86364c926e7f98c6039a30012bff5781.webp",
-    url: "https://kibokcoffee-sma.com",
+      "https://kibokcoffeesma.com/ASSETS/86364c926e7f98c6039a30012bff5781.webp",
+    url: "https://kibokcoffeesma.com",
     telephone: "+524151215267",
     address: {
       "@type": "PostalAddress",

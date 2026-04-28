@@ -24,7 +24,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kibokcoffee-sma.com"),
+  metadataBase: new URL("https://kibokcoffeesma.com"),
   title: "Ki'bok Coffee SMA — Specialty Coffee in San Miguel de Allende",
   description:
     "Organic specialty coffee, homemade pastries, and locally sourced meals in the heart of San Miguel de Allende's Centro.",

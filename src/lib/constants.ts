@@ -1,6 +1,6 @@
 export const SITE = {
   name: "Ki'bok Coffee",
-  url: "https://kibokcoffee-sma.com",
+  url: "https://kibokcoffeesma.com",
   instagram: "https://instagram.com/kibokcoffeesma",
   instagramHandle: "@kibokcoffeesma",
 } as const;
